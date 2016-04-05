@@ -159,7 +159,7 @@ $(document).ready(function() {
         "use strict";
         $('.home-parallax').parallax("30%", 0.1);
         $('.subscribe-parallax').parallax("30%", 0.1);
-        $('.testimonial').parallax("10%", 1);
+        $('.ourTeam').parallax("10%", 1);
         /*add as necessary*/
     }
 });
