@@ -231,3 +231,94 @@ $(document).ready(function() {
         time: 2000
     });
 });
+//Google Map
+    $(document).ready(function() {
+
+    "use strict";
+    
+    var latitude = $('#google-map').data('latitude')
+    var longitude = $('#google-map').data('longitude')
+    function initialize_map() {
+        var myLatlng = new google.maps.LatLng(latitude,longitude);
+        var mapOptions = {
+            zoom: 14,
+            scrollwheel: false,
+            center: myLatlng
+        };
+        var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+        var contentString = '';
+        var infowindow = new google.maps.InfoWindow({
+            content: '<div class="map-content"><ul class="address">' + $('.address').html() + '</ul></div>'
+        });
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map,marker);
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize_map);
+    
+    //Show and hide map
+    function showMap(){
+        $('.opened').fadeIn();
+        $('.closed').fadeOut();
+        $('#map-canvas').animate({height:'500px'});
+        $('#map-canvas').css('overflow','visible');
+
+        var offsetTop = $('#map-canvas').offset().top;
+        $('html, body').animate({scrollTop: offsetTop},500);
+    };
+    function hideMap(){
+        $('.opened').fadeOut();
+        $('.closed').fadeIn();
+        $('#map-canvas').animate({height:'50px'},1000);
+        $('#map-canvas').css('overflow','hidden');
+    }
+    
+    var closed=true;
+    $('.map-head').click(
+        function(){
+            if(closed){
+                showMap(); 
+                return closed=false;
+            } else if(!closed){
+                hideMap();
+                return closed=true;
+            }
+        }
+        );    
+});
+
+    //Skills charts
+
+$(document).ready(function() {
+    
+    // var offset = 600;
+    var offset=$(window).height()*0.5;
+$(window).scroll(function(){
+  var scrolltop = $(this).scrollTop();
+  $('.service').each(function(){
+    if(scrolltop >= $(this).offset().top - offset) {
+      $(function() {
+        $('.chart').easyPieChart({
+            animate: { duration: 5500, enabled: true },
+            easing: 'easeOutElastic',
+      delay: 3000,
+      barColor: '#f39c12',
+      trackColor: '#C2C2C2',
+      scaleColor: false,
+      lineWidth: 25,
+      trackWidth: 21,
+      size:'150',
+      lineCap: 'butt',
+      onStep: function(from, to, percent) {
+      this.el.children[0].innerHTML = Math.round(percent);
+      }
+        });
+    });
+    }
+  });
+});
+});
