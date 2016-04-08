@@ -141,9 +141,11 @@ p {
     color: #f39c12;
 }
 .header {
-    background: url(../images/home.jpg);
+    background: url(../images/start.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
+    background-position: 75%;
+    background-attachment: fixed;
 }
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .75);
@@ -388,7 +390,7 @@ tuor:visited {
     height: auto;
 }
 .ourTeam {
-    background: url(../images/testimonial.jpg);
+    background: url(../images/ThinkstockPhotos-181832675.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -444,6 +446,98 @@ div.carousel-inner .item img {
 /*---------------------------------------
    SECTION FEATURES              
 -----------------------------------------*/
+.service{
+    background: #F1F1F1;
+}
+.languages, .devops, .industrial, .testing,.sales{
+margin-bottom: 35px;
+}
+.percent {
+  display: inline-block;
+  line-height: 150px;
+  z-index: 2;
+  font-size: 23px;
+}
+.percent:after {
+  content: ' %';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.skill-descr h3{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+.skill-descr h3:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px;
+    background: #f39c12;
+    height: 1px;
+}
+.skill-descr p{
+        font-size: 19px;
+    line-height: 24px;
+    margin-top: 40px;
+}
+.progress {
+    height: 20px;
+    background-color: #BABABA;
+    border-radius: 0;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.progress-bar {
+    background-color: #F29B11;
+    color: #333;
+    font-weight: 600;
+}
+.skill-item {
+    padding-bottom: 100px;
+}
+.skill-title {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+.descr {
+    text-align: justify;
+    padding-top: 23px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.tools {
+    color: #676565;
+    font-weight: 800;
+    font-size: 17px;
+    
+}
+.separate{
+    content: "";
+    width: 50%;
+    background: #f39c12;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
 
 .features {
     background-color: #f1f1f1
@@ -646,7 +740,7 @@ div.carousel-inner .item img {
 .single_fun_facts p {
     color: #D7DADB;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 35px;
     font-weight: 300;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
@@ -736,12 +830,16 @@ div.carousel-inner .item img {
 /*---------------------------------------
    SECTION CONTACT              
 -----------------------------------------*/
-
 .contact {
-    background: #f1f1f1;
-    background-repeat: no-repeat;
+    background: url(../images/contact.jpg) no-repeat center;
     background-size: cover;
 }
+.contact .section_overlay {
+    
+    padding-bottom: 75px;
+    background: rgba(0, 0, 0, .65);
+}
+.contact 
 .contact_form {
     padding-top: 30px;
 }
@@ -881,7 +979,14 @@ div.carousel-inner .item img {
 /*---------------------------------------
    SECTION SUBSCRIBE              
 -----------------------------------------*/
+.contact-title{
+    padding-bottom: 75px;
+    padding-top: 53px;
+}
+.contact-title h2{
+    color:#D7DADB;
 
+}
 .subscribe {
     background-image: url(../images/subscribe.jpg);
     background-size: cover;
@@ -889,7 +994,7 @@ div.carousel-inner .item img {
     background-position: center;
 }
 .subscribe .section_overlay {
-    padding-bottom: 70px;
+    
     background: transparent
 }
 .subscribe .section_title h2{
@@ -962,14 +1067,52 @@ div.carousel-inner .item img {
     text-align: center;
     font-size: 20px;
 }
+
+#google-map{
+    height: 500px;
+}
+#map-canvas{
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.map-head{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: #D7DADB;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #434343;
+     
+}
+.closed{
+    width: 100%;
+    top:0;
+    position: absolute;
+}
+.opened{
+    width: 100%;
+    top:0;
+    /*top:50px;*/
+    position: absolute;
+    display: none;
+}
+
+
 /*---------------------------------------
    SECTION FOOTER              
 -----------------------------------------*/
 
 .copyright {
     background-color: #1A1D22;
-    padding-bottom: 65px;
-    padding-top: 65px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     border-bottom: 3px solid #f39c12;
 }
 .copyright h2 {
