@@ -2,112 +2,76 @@
 /* This Css is for small mobile */
 
 @media (max-width: 767px) {
-    .single_store {
-        border-left: 0px;
-    }
-    .last {
-        border-right: 0px;
-    }
-    .iphone {
-        float: none;
-        text-align: center;
-    }
-    .about_phone {
-        text-align: center;
-    }
-    .video {
-        padding-top: 50px;
-    }
-    .video-button {
-        text-align: center;
-    }
-    .call_to_action .col-md-3 {
-        text-align: center;
-        padding-top: 50px;
-    }
     .single_fun_facts {
         padding-bottom: 60px;
     }
-    .about_phone img {
-        width: 100%;
+    .ourTeam .section_overlay{
+        padding: 0;
     }
+    .team-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .name {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .specialty {
+        font-size: 15px;
+    }
+    .photo {
+        height: 120px;
+    } 
 }
 /* This Css is for tablet */
 
 @media (min-width: 760px) {
-    .single_store {
-        border-left: 0px;
-    }
-    .last {
-        border-right: 0px;
-    }
-    .iphone {
-        float: none;
-        text-align: center;
-    }
-    .about_phone {
-        text-align: center;
-    }
-    .call_to_action .col-md-3 {
-        text-align: center;
-        padding-top: 50px;
-    }
-    .video-button {
-        text-align: center;
-    }
+
     .single_fun_facts {
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
-    .video {
-        padding-top: 50px;
+    .ourTeam .section_overlay{
+        padding: 0;
     }
+    .team-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .name {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .specialty {
+        font-size: 15px;
+    }
+    .photo {
+        height: 120px;
+    } 
 }
 /* This Css is for Medium Deviced */
 
 @media (min-width: 992px) {
-    .last {
-        border-right: 1px solid #0F1217;
-    }
-    .single_store {
-        border-left: 1px solid #0F1217;
-    }
-    .iphone {
-        float: right;
-    }
-    .video-button {
-        text-align: left;
-    }
-    .call_to_action .col-md-3 {
-        text-align: right;
-        padding-top: 0px;
-    }
+   
     .single_fun_facts {
         padding-bottom: 0px;
     }
-    .video {
-        padding-top: 00px;
+    .ourTeam .section_overlay{
+        padding: 50px 0;
     }
-}
-/* This Css is for large Deviced */
-
-@media (min-width: 1200px) {
-    .last {
-        border-right: 1px solid #0F1217;
+    
+    .team-item {
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
-    .single_store {
-        border-left: 1px solid #0F1217;
+    
+    .name {
+        font-size: 24px;
+        margin-top: 25px;
     }
-    .iphone {
-        float: right;
+    .specialty {
+        font-size: 18px;
     }
-    .video-button {
-        text-align: left;
-    }
-    .call_to_action .col-md-3 {
-        text-align: right;
-        padding-top: 0px;
-    }
-    .video {
-        padding-top: 0px;
-    }
+    .photo {
+        height: 144px;
+    } 
 }
