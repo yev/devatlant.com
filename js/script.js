@@ -192,11 +192,9 @@ $(document).ready(function() {
   });
 
     //Skills charts
-
-    $(document).ready(function() {
-
-    // var offset = 600;
-    var offset=$(window).height()*0.5;
+    
+$(document).ready(function() {
+  var offset=$(window).height()*0.5;
     $(window).scroll(function(){
       var scrolltop = $(this).scrollTop();
       $('.service').each(function(){
@@ -208,10 +206,11 @@ $(document).ready(function() {
               delay: 3000,
               barColor: '#2AA2C7',
               trackColor: '#C2C2C2',
-              scaleColor: false,
-              lineWidth: 25,
-              trackWidth: 21,
-              size:'150',
+              scaleColor: '#728686',
+              lineWidth: 5,
+              trackWidth: 5,
+              scaleLength:6,
+              size:'140',
               lineCap: 'butt',
               onStep: function(from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);
@@ -225,10 +224,11 @@ $(document).ready(function() {
               delay: 3000,
               barColor: '#2ABA97',
               trackColor: '#C2C2C2',
-              scaleColor: false,
-              lineWidth: 25,
-              trackWidth: 21,
-              size:'150',
+              scaleColor: '#728686',
+              lineWidth: 5,
+              trackWidth: 5,
+              scaleLength:6,
+              size:'140',
               lineCap: 'butt',
               onStep: function(from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);
@@ -242,10 +242,11 @@ $(document).ready(function() {
               delay: 3000,
               barColor: '#BEDB39',
               trackColor: '#C2C2C2',
-              scaleColor: false,
-              lineWidth: 25,
-              trackWidth: 21,
-              size:'150',
+              scaleColor: '#728686',
+              lineWidth: 5,
+              trackWidth: 5,
+              scaleLength:6,
+              size:'140',
               lineCap: 'butt',
               onStep: function(from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);
@@ -259,10 +260,11 @@ $(document).ready(function() {
               delay: 3000,
               barColor: '#E91E63',
               trackColor: '#C2C2C2',
-              scaleColor: false,
-              lineWidth: 25,
-              trackWidth: 21,
-              size:'150',
+              scaleColor: '#728686',
+              lineWidth: 5,
+              trackWidth: 5,
+              scaleLength:6,
+              size:'140',
               lineCap: 'butt',
               onStep: function(from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);
@@ -276,10 +278,11 @@ $(document).ready(function() {
               delay: 3000,
               barColor: '#FFE11A',
               trackColor: '#C2C2C2',
-              scaleColor: false,
-              lineWidth: 25,
-              trackWidth: 21,
-              size:'150',
+              scaleColor: '#728686',
+              lineWidth: 5,
+              trackWidth: 5,
+              scaleLength:6,
+              size:'140',
               lineCap: 'butt',
               onStep: function(from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);
@@ -293,10 +296,11 @@ $(document).ready(function() {
               delay: 3000,
               barColor: '#FD7400',
               trackColor: '#C2C2C2',
-              scaleColor: false,
-              lineWidth: 25,
-              trackWidth: 21,
-              size:'150',
+              scaleColor: '#728686',
+              lineWidth: 5,
+              trackWidth: 5,
+              scaleLength:6,
+              size:'140',
               lineCap: 'butt',
               onStep: function(from, to, percent) {
                 this.el.children[0].innerHTML = Math.round(percent);
@@ -307,3 +311,22 @@ $(document).ready(function() {
       });
     });
   });
+
+// OWL CAROUSEL
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4,
+            dots:false
+        }
+      }
+  });
+});
