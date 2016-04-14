@@ -241,6 +241,25 @@ p {
     font-weight: 500;
     font-size: 18px;
 }
+.owl-carousel .owl-item img {
+     display: inline-block; 
+    width: 144px; 
+    -webkit-transform-style: preserve-3d;
+}
+.owl-dot {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #f39c12;
+    margin: 3PX;
+    border-radius: 50%;
+    display: inline-block;
+}
+.owl-dots {
+    display: inline-block;
+}
+.owl-dot.active {
+    background-color: #f39c12;
+}
 /*---------------------------------------
    SECTION SERVICES              
 -----------------------------------------*/
@@ -250,12 +269,46 @@ p {
 .service .section_title {
     padding-bottom: 80px;
 }
-.languages, .devops, .industrial, .testing,.sales, .startup{
-margin-bottom: 35px;
+.skills {
+    max-width: 350px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.skills-row-first, .skills-lang, .skills-start, .skills-devops{
+    height: 500px;
+}
+.skills-row-second, .skills-ind, .skills-test, .skills-sales {
+    height: 550px;
+}
+.skills:hover .info{
+    top:0;
+} 
+.skills:hover .console{
+    display: inline-block;
+} 
+.info, .inf-sales {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #F1F1F1; 
+    padding: 15px;
+    border-radius: 8px;
+}
+.chart1,.chart2,.chart3,.chart4,.chart5, .chart6 {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+}
+.chart1 canvas, .chart2 canvas,.chart3 canvas,.chart4 canvas,.chart5 canvas, .chart6 canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .percent {
   display: inline-block;
-  line-height: 150px;
+  line-height: 140px;
   z-index: 2;
   font-size: 23px;
 }
@@ -264,62 +317,41 @@ margin-bottom: 35px;
   margin-left: 0.1em;
   font-size: .8em;
 }
-.chart1,.chart2,.chart3,.chart4,.chart5, .chart6 {
-  position: relative;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-}
-.chart1 canvas, .chart2 canvas,.chart3 canvas,.chart4 canvas,.chart5 canvas, .chart6 canvas{
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.skill-descr h3{
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 37px;
-    position: relative;
-}
-.skill-descr h3:after {
-    content: "";
-    position: absolute;
-    bottom: -12px;
-    left: 0;
-    width: 70px;
-    background: #f39c12;
-    height: 1px;
-}
-.skill-descr p{
-        font-size: 19px;
-    line-height: 24px;
-    margin-top: 40px;
-}
 .skill-title {
     color: #333;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
     padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
 }
-.tools {
-    color: #676565;
+.skill-title:before{
+    content: '> ';
+}
+.skill-descr {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.console {
+    background-color: #000;
+    border-radius: 4px;
+    color: #fff;
+    word-spacing: 3px;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    display: none;
+}
+.tech-iteam {
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Droid Sans Mono' ;
+}
+.tech-iteam:before{
+    content:"> ";
     font-weight: 800;
-    font-size: 20px;
-    word-spacing: 8px;
-}
-.devops-tool-name{
-    font-size: 19px;
-}
-.devops .tools {
-    padding-bottom: 10px;
-    display: inline-block;
-}
-.startup .tools {
-    padding-bottom: 10px;
-    display: inline-block;
 }
 .indust-link {
     font-style: italic;
