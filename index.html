@@ -12,11 +12,15 @@
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!--OWL CAROUSEL-->
+	<link rel="stylesheet" href="css/owl.carousel.css">
 
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
@@ -179,28 +183,30 @@
         <div class="section_overlay ">
             <div class="container">
                 <div class="row text-center">
-                    <!--FIRS EXAMPLE-->
-                    <div class="col-md-3 team-item">
-                        <img class="photo" src="images/yev.jpg" height="144px" alt="Yev Voronetskyy">
-                        <p class="name">Yev Voronetskyy</p>
-                        <span class="specialty">Software Engineer</span>
-                    </div>
-                    <div class="col-md-3 team-item">
-                        <img class="photo" src="images/davidova.jpg" height="144px" alt="Natalya Davydova">
-                        <p class="name">Natalya Davydova</p>
-                        <span class="specialty">Director of sales department</span>
-                    </div>
-                    <div class="col-md-3 team-item">
-                        <img class="photo" src="images/client_3.png" height="144px" alt="Tonya Vdovichenko">
-                        <p class="name">Tonya Vdovichenko</p>
-                        <span class="specialty">UX designer</span>
-                    </div>
-                    <div class="col-md-3 team-item">
-                        <img class="photo" src="images/client_2.png" height="144px" alt="Mykhailo Bagrov">
-                        <p class="name">Mykhailo Bagrov</p>
-                        <span class="specialty">DevOps</span>   
-                    </div>
-
+                	<div class="col-md-12">
+     					<div class="owl-carousel">
+  							<div class="team-item"> 
+  								<img class="photo" src="images/yev.jpg" height="144px" alt="Yev Voronetskyy">
+     							<p class="name">Yev Voronetskyy</p>
+     							<span class="specialty">Software Engineer</span>
+  							</div>
+  							<div class="team-item"> 
+								<img class="photo" src="images/davidova.jpg" height="144px" alt="Natalya Davydova">
+                        		<p class="name">Natalya Davydova</p>
+                        		<span class="specialty">Director of sales department</span>
+  							</div>
+  							<div class="team-item"> 
+								<img class="photo" src="images/client_3.png" height="144px" alt="Tonya Vdovichenko">
+     							<p class="name">Tonya Vdovichenko</p>
+     							<span class="specialty">UX designer</span>
+  							</div>
+  							<div class="team-item"> 
+  								<img class="photo" src="images/client_2.png" height="144px" alt="Mykhailo Bagrov">
+     							<p class="name">Mykhailo Bagrov</p>
+     							<span class="specialty">DevOps</span>
+  							</div>
+						</div>
+					</div>
                 </div>
             </div>
         </div>
@@ -210,8 +216,7 @@
 <!-- =========================
      START SERVICES SECTION
      ============================== -->
-     <section id="SERVICE" class="service page">
-
+    <section id="SERVICE" class="service page">
          <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
@@ -225,107 +230,131 @@
             </div>
         </div>
         <div class="container-fluid">
-          <div class="row languages">
+        	<div class="row text-center">
+     			<div class="col-md-4">
+     				<div class="skills skills-row-first skills-lang">
+     					<div class="chart1" data-percent="100">
+     						<span class="percent">100</span>
+     					</div>
+     					<div class="info">
+     						<div class="skill-title">
+     							PROGRAMMING LANGUAGES
+     						</div>
+     						<p class="skill-descr">We are simply polyglots. We can read and write the 
+     						code in Java, Ruby, PHP, C, ActionScript, JS. Nevertheless 
+     						our main language is Java. We have a huge experience in 
+     						Java SE (from 1.4 to the latest java 8 with stream API 
+     						and lambdas). We extensively use all de-facto Java frameworks</p>
+     						<div class="console">
+     							<p class="tech-iteam">Spring, JPA, Servlets</p>
+     						</div>
+     					</div>
 
-             <div class="col-md-3 text-center">
-                 <span class="chart1" data-percent="100">
-                     <span class="percent">100</span>
-                 </span>
-             </div>
-             <div class="col-md-9 skill-descr text-justify">
-                 <h3 class="skill-title">Programming Languages</h3>
-                 <p>We are simply polyglots. We can read and write the code in Java, Ruby, PHP, C, ActionScript, JS. Nevertheless our main language is Java. We have a huge experience in Java SE (from 1.4 to the latest java 8 with stream API and lambdas). We extensively use all de-facto Java frameworks.</p>
-                 <span class="tools">Spring, JPA, Servlets</span>
-             </div>
+     				</div>
+     			</div>
+     			<div class="col-md-4">
+     				<div class="skills skills-row-first skills-start">
+     					<div class="chart6" data-percent="100">
+     						<span class="percent">100</span>
+     					</div>
+     					<div class="info">
+     						<div class="skill-title">
+     							STARTUP TOOLBOX
+     						</div>
+     						<p class="skill-descr">We are constantly improving our toolbox of modern technologies 
+     							which resolve a lot of common issue in high performant, distributed 
+     							and fault tolerant environments</p>
+     						<div class="console">
+     							<p class="tech-iteam">NoSQL: MongoDb, Redis, ElasticSearch</p>
+     						<p class="tech-iteam">Distributed caches: Memcached, Hazelcast</p>
+     						</div>
+     					</div>
 
-         </div>
-         <div class="row startup">
+     				</div>
+     			</div>
+     			<div class="col-md-4">
+     				<div class="skills skills-row-first skills-devops">
+     					<div class="chart2" data-percent="100">
+     						<span class="percent">100</span>
+     					</div>
+     					<div class="info">
+     						<div class="skill-title">
+     							DEVOPS
+     						</div>
+     						<p class="skill-descr">We are impressed by the DevOps culture and try to adopt as much 
+     								as possible from the community</p>
+     						<div class="console">
+     							<p class="tech-iteam">Log aggregation:<br>ElasticSearch, Kibana, Logstash</p>
+     							<p class="tech-iteam">Monitoring:<br> PagerDuty, Sensu, Monit, zabbix</p>
+     							<p class="tech-iteam">Containers/VMs: <br>Vagrant, Otto, Ansible, Chef (Kitchen, Knife), Docker</p>		
+     							<p class="tech-iteam">Multi-technology deploy:<br> custom capistrano recipes for almost every corner case and technology</p>
+     						</div>
+     					</div>
+     				</div>
+     			</div>	
+     		</div>    			
+     		<div class="row text-center">
+     			<div class="col-md-4">
+     				<div class="skills skills-row-second skills-ind">
+     					<div class="chart3" data-percent="100">
+     						<span class="percent">100</span>
+     					</div>
+     					<div class="info">
+     						<div class="skill-title">
+     							INDUSTRIALISATION
+     						</div>
+     						<p class="skill-descr">We were the early adopters of CI philosophy.
+     							In 2007 we installed the first CI server called Hudson. Nowadays, 
+     							the CI is a vibrant core of any automatisation- CI generates and 
+     							aggregates a lot of events around the project health and life cycle.
+     							Here at devAtlant we push this approach even further, with new concept 
+     							called <a class="indust-link" href="https://puppet.com/solutions/infrastructure-as-code">
+     							Infrastructure as Code</a>,when we test the creation of the infrastructure</p>
+     						<div class="console">
+     							<p class="tech-iteam">Git/Gitlab, Jenkins CI, Sonar, Redmine/Jira</p>
+     						</div>
+     					</div>
+     				</div>
+     			</div>
+     			<div class="col-md-4">
+     				<div class="skills skills-row-second skills-test">
+     					<div class="chart4" data-percent="100">
+     						<span class="percent">100</span>
+     					</div>
+     					<div class="info">
+     						<div class="skill-title">
+								TESTING
+							</div>
+     						<p class="skill-descr">In order to guarantee the quality of the product we should apply the 
+     							best engineering practices invented in last decades. Those practices 
+     							concern the testing area as well. We are trying to minimize the manual 
+     							testing and build maintainable and cheap testing factories.</p>
+     						<div class="console">
+     							<p class="tech-iteam">JUnit, TestNg, Cucumber, Selenium tests, SpockFramework</p> 
+     						</div>
+     					</div>
+     				</div>
+     			</div>
+     			<div class="col-md-4">
+     				<div class="skills skills-row-second skills-sales">
+     					<div class="chart5" data-percent="100">
+     						<span class="percent">100</span>
+     					</div>
+     					<div class="inf-sales">
+     						<div class="skill-title">
+								PRE-SALES
+							</div>
+     						<p class="skill-descr">Project audit 
+     							<br>Macro estimations based on business requirements
+     							<br>Communication with a customer 
+     							<br>Commercial proposition / contracts / SLA </p>
+     					</div>
+     				</div>
+     			</div>
+     		</div>
 
-             <div class="col-md-3 text-center">
-                 <span class="chart6" data-percent="100">
-                     <span class="percent">100</span>
-                 </span>
-             </div>
-             <div class="col-md-9 skill-descr text-justify">
-                 <h3 class="skill-title">Startup toolbox </h3>
-                 <p>We are constantly improving our toolbox of modern technologies which resolve a lot of common issue in high performant, distributed and fault tolerant environments.</p>
-                 <span class="devops-tool-name">NoSQL:</span><br>
-                 <span class="tools">MongoDb, Redis, ElasticSearch</span><br>
-                 <span class="devops-tool-name">Distributed caches:</span><br>
-                 <span class="tools">Memcached, Hazelcast</span><br>
-             </div>
-
-         </div>
-         <div class="row devops">
-          <div class="col-md-3 text-center">
-             <div class="chart2" data-percent="100">
-                 <span class="percent">100</span>
-             </div>
-         </div>
-         <div class="col-md-9 skill-descr text-justify">
-             <h3 class="skill-title">DevOps</h3>
-             <p>We are impressed by the DevOps culture and try to adopt as much as possible from the community.</p>
-             <span class="devops-tool-name">Log aggregation:</span><br>
-             <span class="tools">ElasticSearch, Kibana, Logstash</span><br>
-             <span class="devops-tool-name">Monitoring:</span><br>
-             <span class="tools">PagerDuty, Sensu, Monit, zabbix</span><br>
-             <span class="devops-tool-name">Containers/VMs:</span><br>
-             <span class="tools">Vagrant, Otto, Ansible, Chef (Kitchen, Knife), Docker</span><br>
-             <span class="devops-tool-name">Multi-technology deploy:</span><br>
-             <span class="tools">custom capistrano recipes for almost every corner case and technology</span>
-         </div>
-
-     </div>
-     <div class="row industrial">
-         <div class="col-md-3 text-center">
-             <div class="chart3" data-percent="100">
-                 <span class="percent">100</span>
-             </div>
-         </div>
-         <div class="col-md-9 skill-descr text-justify">
-             <h3 class="skill-title">Industrialisation</h3>
-             <p>We were the early adopters of CI philosophy.
-                In 2007 we installed the first CI server called Hudson. Nowadays, the CI is a vibrant core of any automatisation
-                - CI generates and aggregates a lot of events around the project health and life cycle.
-                Here at devAtlant we push this approach even further, with new concept called <a class="indust-link" href="https://puppet.com/solutions/infrastructure-as-code">Infrastructure as Code</a>,
-                when we test the creation of the infrastructure.</p>
-                <span class="tools">Git/Gitlab, Jenkins CI, Sonar, Redmine/Jira</span>
-            </div>
-        </div>
-        <div class="row testing">
-          <div class="col-md-3 text-center">
-             <span class="chart4" data-percent="100">
-                 <span class="percent">100</span>
-             </span>
-         </div>
-         <div class="col-md-9 skill-descr text-justify">
-             <h3 class="skill-title">Testing</h3>
-             <p>In order to guarantee the quality of the product we should apply the best engineering practices invented in last decades. Those practices concern the testing area as well. We are trying to minimize the manual testing and build maintainable and cheap testing factories.</p>
-             <span class="tools">JUnit,TestNg, Cucumber, Selenium tests, SpockFramework</span>
-
-         </div>
-
-     </div>
-     <div class="row sales">
-         <div class="col-md-3 text-center">
-             <span class="chart5" data-percent="100">
-                 <span class="percent">100</span>
-             </span>
-         </div>
-         <div class="col-md-9 skill-descr text-justify">
-             <h3 class="skill-title">Pre-Sales</h3>
-             <p>Project audit <br>
-                 <pre>
-                Macro estimations based on business requirements<br>  
-                Communication with a customer <br>
-                Commercial proposition / contracts / SLA
-             </pre>
-
-            </div>
-        </div>
-
-    </div>
-</section>
+    	</div>
+	</section>
 <!-- END SERVICES SECTION -->
 
 <!-- =========================
@@ -424,6 +453,7 @@
      <script src="js/jquery.parallax-1.1.3.js"></script>
      <script src="js/wow.min.js"></script>
      <script src="js/jquery.easypiechart.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
      <script src="js/script.js"></script>
      <script src="js/map.js"></script>
      <script>
