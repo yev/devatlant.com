@@ -5,23 +5,27 @@
     .single_fun_facts {
         padding-bottom: 60px;
     }
-    .ourTeam .section_overlay{
-        padding: 0;
+    .skills-lang, .skills-start {
+        height: 490px;
     }
-    .team-item {
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .skills-start {
+        height: 390px;
     }
-    .name {
-        font-size: 20px;
-        margin-top: 10px;
+    .skills-devops {
+        height: 375px;
     }
-    .specialty {
-        font-size: 15px;
+    .skills-devops:hover {
+        height: 535px;
     }
-    .photo {
-        height: 120px;
-    } 
+    .skills-ind{
+        height: 550px;
+    }
+    .skills-test{
+        height: 465px;
+    }
+    .skills-sales {
+        height: 515px;
+    }
 }
 /* This Css is for tablet */
 
@@ -30,48 +34,42 @@
     .single_fun_facts {
         padding-bottom: 50px;
     }
-    .ourTeam .section_overlay{
-        padding: 0;
+    .skills-lang, .skills-start {
+        height: 450px;
     }
-    .team-item {
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .skills-start {
+        height: 390px;
     }
-    .name {
-        font-size: 20px;
-        margin-top: 10px;
+    .skills-devops {
+        height: 375px;
     }
-    .specialty {
-        font-size: 15px;
+    .skills-devops:hover {
+        height: 475px;
     }
-    .photo {
-        height: 120px;
+    .skills-ind{
+        height: 500px;
+    }
+    .skills-test{
+        height: 465px;
+    }
+    .skills-sales {
+        height: 515px;
     } 
 }
 /* This Css is for Medium Deviced */
 
 @media (min-width: 992px) {
-   
+ 
     .single_fun_facts {
         padding-bottom: 0px;
     }
-    .ourTeam .section_overlay{
-        padding: 50px 0;
+    .skills-row-first, .skills-lang, .skills-start, .skills-devops{
+        height: 500px;
     }
-    
-    .team-item {
-        padding-top: 35px;
-        padding-bottom: 35px;
+    .skills-devops:hover{
+        height: 500px;
     }
-    
-    .name {
-        font-size: 24px;
-        margin-top: 25px;
-    }
-    .specialty {
-        font-size: 18px;
-    }
-    .photo {
-        height: 144px;
+    .skills-row-second, .skills-ind, .skills-test, .skills-sales {
+        height: 550px;
     } 
 }
