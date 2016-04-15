@@ -71,14 +71,15 @@ p {
     margin: 0px;
 }
 .navbar {
-    margin-top: -100px
+    margin-top: 0px;
+    opacity: 1;
 }
 .navbar-brand {
     padding: 9px 15px;
 }
 @media(min-width:768px) {
     .navbar-default {
-        background-color: transparent;
+        background-color: rgba(59, 59, 59, 0);
     }
     .navbar-default .navbar-nav>li>a {
         color: #B5B5B5;
@@ -98,8 +99,8 @@ p {
         z-index: 110;
     }
     .navbar-brand img {
-        padding-top: 25px;
-        height: 45px;
+        padding-top: 0px;
+        height: 35px;
         -webkit-transition: all 1s;
         -moz-transition: all 1s;
         -o-transition: all 1s;
@@ -112,12 +113,12 @@ p {
         transition: all 1s;
     }
     .navbar-nav>li>a {
-        padding-top: 45px;
+        padding-top: 15px;
     }
 }
 @media (max-width: 768px) {
-    .navbar-brand img {} .navbar-default {
-        background-color: #fff !important;
+    .navbar-default {
+        background-color: rgba(59, 59, 59, 1) !important;
     }
 }
 .navbar-default .navbar-nav>.active>a,
