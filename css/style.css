@@ -275,6 +275,14 @@ p {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    border: solid 2px #f39c12;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    box-shadow: 0px 0px 7px #868181;
 }
 .skills-row-first, .skills-lang, .skills-start, .skills-devops{
     height: 500px;
@@ -282,11 +290,14 @@ p {
 .skills-row-second, .skills-ind, .skills-test, .skills-sales {
     height: 550px;
 }
+.skills:hover {
+    border: solid 2px transparent;
+} 
 .skills:hover .info{
     top:0;
 } 
 .skills:hover .console{
-    display: inline-block;
+    opacity: 1;
 } 
 .info, .inf-sales {
     width: 100%;
@@ -295,12 +306,22 @@ p {
     background-color: #F1F1F1; 
     padding: 15px;
     border-radius: 8px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .chart1,.chart2,.chart3,.chart4,.chart5, .chart6 {
     position: relative;
     display: inline-block;
     width: 140px;
     height: 140px;
+    margin-top: 25px;
+    opacity: 1;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .chart1 canvas, .chart2 canvas,.chart3 canvas,.chart4 canvas,.chart5 canvas, .chart6 canvas{
   position: absolute;
@@ -343,7 +364,11 @@ p {
     text-align: left;
     padding: 10px;
     width: 100%;
-    display: none;
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .tech-iteam {
     font-size: 14px;
