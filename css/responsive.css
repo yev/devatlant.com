@@ -5,11 +5,11 @@
     .single_fun_facts {
         padding-bottom: 60px;
     }
-    .skills-lang, .skills-start {
-        height: 490px;
+    .skills-lang {
+        height: 525px;
     }
     .skills-start {
-        height: 390px;
+        height: 405px;
     }
     .skills-devops {
         height: 375px;
@@ -18,10 +18,10 @@
         height: 535px;
     }
     .skills-ind{
-        height: 550px;
+        height: 580px;
     }
     .skills-test{
-        height: 465px;
+        height: 478px;
     }
     .skills-sales {
         height: 515px;
@@ -34,7 +34,7 @@
     .single_fun_facts {
         padding-bottom: 50px;
     }
-    .skills-lang, .skills-start {
+    .skills-lang {
         height: 450px;
     }
     .skills-start {
