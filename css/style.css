@@ -310,6 +310,7 @@ p {
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+    top:180px;
 }
 .chart1,.chart2,.chart3,.chart4,.chart5, .chart6 {
     position: relative;
