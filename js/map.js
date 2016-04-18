@@ -25,7 +25,6 @@ $(document).ready(function() {
     //Show and hide map
     function showMap(){
         $('.opened').fadeIn();
-        $('.closed').fadeOut();
         $('#map-canvas').animate({height:'500px'});
         $('#map-canvas').css('overflow','visible');
 
@@ -34,13 +33,12 @@ $(document).ready(function() {
     };
     function hideMap(){
         $('.opened').fadeOut();
-        $('.closed').fadeIn();
-        $('#map-canvas').animate({height:'50px'},1000);
+        $('#map-canvas').animate({height:'0px'},1000);
         $('#map-canvas').css('overflow','hidden');
     }
 
     var closed=true;
-    $('.map-head').click(
+    $('.photo-map').click(
         function(){
             if(closed){
                 showMap();
@@ -51,4 +49,12 @@ $(document).ready(function() {
             }
         }
     );
+    $('.map-head').click(
+      function(){
+       if(!closed){
+          hideMap();
+          return closed=true;
+        }
+      }
+      ); 
 });

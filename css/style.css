@@ -373,6 +373,7 @@ p {
 .single_fun_facts i {
     color: #f39c12;
     font-size: 60px;
+    padding-top: 50px;
 }
 .single_fun_facts p, .single_fun_facts p a {
     color: #D7DADB;
@@ -384,6 +385,9 @@ p {
 }
 .single_fun_facts p a{
     text-decoration: none;
+}
+.single_fun_facts .contact-mail {
+    margin-top: 75px;
 }
 .contact {
     background: url(../images/contact.jpg) no-repeat center;
@@ -397,7 +401,7 @@ p {
 .numbers{
         color: #D7DADB;
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: 75px;
     font-weight: 300;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
@@ -422,6 +426,13 @@ p {
     display: inline-block;
     vertical-align: text-bottom;
     margin-right: 10px;
+}
+.photo-map {
+    border-radius: 50%;
+    border: solid 2px #f39c12;
+    padding: 3px;
+    height: 150px;
+    cursor: pointer;
 }
 .links {
     padding-top: 35px;
@@ -461,7 +472,7 @@ p {
     border: solid 2px #FF9C00;    
 }
 /*---------------------------------------
-   SECTION SUBSCRIBE              
+   SECTION MAP             
 -----------------------------------------*/
 .contact-title{
     padding-bottom: 75px;
@@ -475,7 +486,7 @@ p {
     height: 500px;
 }
 #map-canvas{
-    height: 50px;
+    height: 0px;
     position: relative;
     overflow: hidden;
 }
@@ -491,12 +502,8 @@ p {
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    background-color: #434343; 
-}
-.closed{
-    width: 100%;
-    top:0;
-    position: absolute;
+    background-color: #434343;
+    opacity: .9;
 }
 .opened{
     width: 100%;
