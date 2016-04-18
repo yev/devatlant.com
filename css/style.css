@@ -299,6 +299,9 @@ p {
 .skills:hover .console{
     opacity: 1;
 } 
+.skills:hover .chart1,.skills:hover .chart2,.skills:hover .chart3,.skills:hover .chart4,.skills:hover .chart6{
+    opacity: 0;
+} 
 .info, .inf-sales {
     width: 100%;
     height: 100%;
