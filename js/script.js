@@ -20,9 +20,15 @@ $(document).ready(function() {
       $(".navbar-default").css({
         'background-color': 'rgba(59, 59, 59, 0.7)'
       });
+      $("#nav-french").css({
+        'background-color': 'rgba(59, 59, 59, .9)'
+      });
     } else {
       $(".navbar-default").css({
         'background-color': 'rgba(59, 59, 59, 0)'
+      });
+      $("#nav-french").css({
+        'background-color': 'rgba(59, 59, 59, 1)'
       });
     }
   });
