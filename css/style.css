@@ -16,6 +16,7 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: #f1f1f1;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -645,4 +646,284 @@ p {
         transform: scale(1.0);
         -webkit-transform: scale(1.0);
     }
+}
+/*---------------------------------------
+   LA FRENCH TECH           
+-----------------------------------------*/
+/*---------------------------------------
+   FRENCH HEADER        
+-----------------------------------------*/
+#nav-french{
+    background-color: rgba(59, 59, 59, 1);
+}
+.line-logo {
+    display: inline-block;
+    height: 30px;
+    width: 2px;
+    background-color: rgba(238, 238, 238, 0.36);
+    margin-top: 10px;
+    float: left;
+}
+
+#fr-logo {
+    margin-left: 0;
+}
+#fr-logo img {
+    height: 35px;
+}
+.img-ua-fr{
+
+    margin-top: 50px;
+}
+.img-ua-fr img{
+    width: 100%;
+}
+@media (max-width: 380px){
+    .line-logo{
+        display: none;
+    }
+    .img-ua-fr{
+    margin-top: 100px;
+}
+}
+/*---------------------------------------
+   UKRAINE_FRANCE         
+-----------------------------------------*/
+.ukraine-france{
+    background-color: #f1f1f1;
+}
+/*---------------------MiSSION-------------------*/
+.mission h3, .events h3, .activity h3{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    color: #333;
+    font-size: 25px;
+    font-weight: 400;
+}
+.mission-iteam{
+    padding-top: 50px;
+}
+.mission-iteam p {
+    font-size: 16px;
+    padding-top: 35px;
+}
+/*---------------------EVENTS-------------------*/
+.event-img img{
+    height: 100%;
+    width: 100%;
+}
+.event-descr {
+    text-align: left;
+    font-size: 15px;
+}
+.event-descr a{
+    color: #333;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.event-descr p{
+    padding-top: 10px;
+}
+.events h3, .activity h3 {
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+.events .row{
+    padding-bottom: 20px;
+}
+.event-img {
+    padding-bottom: 10px;
+}
+.btn-events {
+    margin: 0 auto;
+    width: 225px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #515151;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: solid 2px #717070;
+    cursor: pointer;
+    margin-top: 35px;
+
+}
+.btn-events:hover, .btn-events:focus{
+    background-color: #403C3C;
+}
+.btn-events a{
+    color: #fff;
+}
+.btn-events a:hover{
+    text-decoration: none;
+}
+/*---------------------------------------
+  FRENCH TECH        
+-----------------------------------------*/
+.french-tech{
+    background-color: #f1f1f1;
+}
+.img-fr-tech{
+    background: url(../images/frenchtechs.png) no-repeat;
+    padding-top: 150px;
+    margin-top: 100px;
+}
+.fr-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 60px;
+    height: 1px;
+    background-color: #e52d59;
+    left: 50%;
+    margin-left: -30px;
+}
+/*---------------------FRENCH TECH DESCRIPTION-------------------*/
+.frtech-descr {
+    padding-top: 100px;
+}
+.quote{
+    border-left: 5px solid #e52d59;
+}
+.frtech-image img {
+    width: 285px;
+}
+/*---------------------ACTIVITY-------------------*/
+
+.activity-img{
+    height: 155px;
+    width: 155px;
+    border: solid 5px #908e8e;
+    border-radius: 50%;
+    margin:0 auto;
+    transition: all .5s ease;
+    box-shadow: 0 0 3px;
+}
+.activity-union{
+    background: url(../images/union.png) no-repeat;
+    background-position: center;
+    background-size: 105px; 
+}
+.activity-help{
+    background: url(../images/help.png) no-repeat;
+    background-position: center;
+    background-size: 105px; 
+}
+.activity-inter{
+    background: url(../images/world.png) no-repeat;
+    background-position: center;
+    background-size: 105px; 
+}
+.activity-line{
+    width: 5px;
+    height: 20px;
+    margin:0 auto;
+    background-color: #908e8e;
+    box-shadow: 0 0 3px;
+    transition: all .5s ease;
+}
+.activity-descr{
+    width: 300px;
+    height: 300px;
+    border: solid 5px #908e8e;
+    border-radius: 5px;
+    margin:0 auto;
+    box-shadow: 0 0 3px;
+    transition: all .5s ease;
+}
+.activity-title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.activity-descr p:last-child{
+    padding: 0 10px;
+}
+.activity-iteam{
+    padding-top: 25px;
+}
+.activity-iteam:hover .activity-img{
+    border-color: #e52d59;
+    box-shadow: 0 0 10px;
+}
+.activity-iteam:hover .activity-line{
+    background-color: #e52d59;
+    box-shadow: 0 0 10px;
+}
+.activity-iteam:hover .activity-descr{
+    border-color: #e52d59;
+    box-shadow: 0 0 10px;
+}
+/*---------------------FRENCH TECH TICKET-------------------*/
+.section-descr p {
+    max-width: 480px;
+    margin: 0 auto;
+    font-size: 17px;
+    padding: 0px 9px;
+}
+.ticket-iteam {
+    padding-top: 70px;
+}
+.ticket-iteam p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+.ticket-iteam a{
+    color:#333;
+    font-style: italic;
+}
+/*---------------------FRENCH TECH VIDEO-------------------*/
+.video-iteam {
+    padding-top: 20px;
+}
+.video1,.video2, .video3{
+    position: relative;
+    background-size: cover;
+    height: 200px;
+    padding: 0;
+}
+.video1{
+    background: url(../images/video1.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.video2{
+    background: url(../images/video2.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.video3{
+    background: url(../images/video3.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+ .over-video{
+    background-color: rgba(60, 53, 53, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+} 
+.video-iteam a{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.video-iteam img{  
+    width: 100%;
+}
+.video-iteam p {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.video-iteam .play {
+    width: 64px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
 }
