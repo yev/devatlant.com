@@ -6,6 +6,23 @@ $(window).bind("load", function() {
   $(".spn_hol").fadeOut(1000);
 });
 
+//LANGUAGES
+$(document).ready(function() {
+
+  "use strict";
+  var lang_name;
+  $('.lang').hover(function(){
+    $('.lang ul').slideToggle();
+  });
+
+  $('.lang ul li a').click(function(){
+    $('.lang ul li a').removeClass('active');
+    $(this).addClass('active');
+    lang_name=$(this).text();
+    $('.current-lang').text(lang_name);    
+  });
+  
+});
 
 //MENU APPEAR AND HIDE
 $(document).ready(function() {
