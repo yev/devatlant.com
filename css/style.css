@@ -90,7 +90,7 @@ p {
         color: #f39c12;
     }
     .navbar-default .navbar-nav>li>a:focus {
-        color: #B5B5B5;
+        color: #f39c12;
     }
     .navbar-default {
         -webkit-transition: all 1s;
@@ -192,6 +192,59 @@ p {
 .home-btn:hover {
     background-color: #f39c12;
     color: #fff;
+}
+.lang{
+    background-color: rgba(59, 59, 59, 1);
+    position: fixed;
+    top:50px;
+    right: 0;
+    z-index: 10;
+}
+
+.lang ul{
+    list-style-type: none;
+    margin:0;
+    display: none; 
+}
+.lang ul li a{
+    color: #B5B5B5;
+    text-decoration: none;
+    padding: 20px;
+    height: 60px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+.lang ul li a:hover{
+    background-color: rgba(243, 156, 18, 0.55);
+    color:#fff;
+}
+.lang .active,.current-lang{
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 15px;
+}
+.current-lang{
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 70px;
+}
+@media (max-width: 380px){
+    .lang{
+    	top:100px;
+     }
+     .lang ul li a{
+    	padding: 15px;
+    	height: 50px;
+    	width: 60px;
+     }
+     .current-lang{
+    	height: 50px;
+    	width: 60px;
+    	padding: 15px;
+     }
 }
 /*---------------------------------------
    SECTION ABOUT              
