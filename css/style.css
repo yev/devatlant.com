@@ -428,12 +428,12 @@ p {
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
-.tech-iteam {
+.tech-item {
     font-size: 14px;
     text-align: left;
     font-family: 'Droid Sans Mono' ;
 }
-.tech-iteam:before{
+.tech-item:before{
     content:"> ";
     font-weight: 800;
 }
