@@ -1,32 +1,54 @@
-
 /* This Css is for small mobile */
+@media (min-width: 320px) {
 
-@media (max-width: 767px) {
     .single_fun_facts {
         padding-bottom: 60px;
     }
     .skills-lang {
-        height: 525px;
+        height: 575px;
     }
     .skills-start {
-        height: 405px;
+        height: 425px;
     }
     .skills-devops {
         height: 375px;
     }
-    .skills-devops:hover {
-        height: 535px;
-    }
     .skills-ind{
-        height: 580px;
+        height: 600px;
     }
     .skills-test{
-        height: 478px;
+        height: 500px;
     }
     .skills-sales {
+        height: 465px;
+    } 
+}
+@media (min-width: 400px) {
+
+    .single_fun_facts {
+        padding-bottom: 60px;
+    }
+    .skills-lang {
         height: 515px;
     }
+    .skills-start {
+        height: 425px;
+    }
+    .skills-devops {
+        height: 375px;
+    }
+    .skills-ind{
+        height: 525px;
+    }
+    .skills-test {
+        height: 500px;
+    }
+    .skills-sales {
+        height: 455px;
+    } 
 }
+
+
 /* This Css is for tablet */
 
 @media (min-width: 760px) {
@@ -34,26 +56,14 @@
     .single_fun_facts {
         padding-bottom: 50px;
     }
-    .skills-lang {
-        height: 450px;
-    }
     .skills-start {
-        height: 390px;
+        height: 400px;
     }
-    .skills-devops {
-        height: 375px;
-    }
-    .skills-devops:hover {
+    .skills-test {
         height: 475px;
     }
-    .skills-ind{
-        height: 500px;
-    }
-    .skills-test{
-        height: 465px;
-    }
     .skills-sales {
-        height: 515px;
+        height: 445px;
     } 
 }
 /* This Css is for Medium Deviced */
@@ -64,12 +74,15 @@
         padding-bottom: 0px;
     }
     .skills-row-first, .skills-lang, .skills-start, .skills-devops{
-        height: 500px;
-    }
-    .skills-devops:hover{
-        height: 500px;
+        height: 550px;
     }
     .skills-row-second, .skills-ind, .skills-test, .skills-sales {
-        height: 550px;
+        height: 575px;
+    } 
+
+}
+@media (min-width: 1130px) {
+     .skills-row-second, .skills-ind, .skills-test, .skills-sales {
+        height: 526px;
     } 
 }

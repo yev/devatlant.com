@@ -187,6 +187,18 @@ $(document).ready(function() {
     });
   });
   });
+  
+// NICE SCROLL FOR TECH ITEMS
+
+$(document).ready(function(){
+  $('.skills').hover(function(){
+    $('.skills').niceScroll({
+      touchbehavior: true,
+      cursorcolor:'#f39c12',
+      cursoropacitymax:0.5
+    });
+  });
+});
 
     //Skills charts
     
