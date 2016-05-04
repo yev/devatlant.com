@@ -1,41 +1,54 @@
-
 /* This Css is for small mobile */
+@media (min-width: 320px) {
 
-@media (max-width: 767px) {
     .single_fun_facts {
         padding-bottom: 60px;
     }
     .skills-lang {
-        height: 530px;
+        height: 575px;
     }
     .skills-start {
-        height: 405px;
-    }
-    .skills-start:hover {
-        height: 445px;
+        height: 425px;
     }
     .skills-devops {
         height: 375px;
     }
-    .skills-devops:hover {
-        height: 535px;
-    }
     .skills-ind{
-        height: 580px;
-    }
-    .skills-ind:hover{
-        height: 740px;
+        height: 600px;
     }
     .skills-test{
-        height: 478px;
-    }
-    .skills-test:hover{
-        height: 540px;
+        height: 500px;
     }
     .skills-sales {
+        height: 465px;
+    } 
+}
+@media (min-width: 400px) {
+
+    .single_fun_facts {
+        padding-bottom: 60px;
+    }
+    .skills-lang {
         height: 515px;
     }
+    .skills-start {
+        height: 425px;
+    }
+    .skills-devops {
+        height: 375px;
+    }
+    .skills-ind{
+        height: 525px;
+    }
+    .skills-test {
+        height: 500px;
+    }
+    .skills-sales {
+        height: 455px;
+    } 
 }
+
+
 /* This Css is for tablet */
 
 @media (min-width: 760px) {
@@ -43,29 +56,14 @@
     .single_fun_facts {
         padding-bottom: 50px;
     }
-    .skills-lang {
-        height: 455px;
-    }
     .skills-start {
         height: 400px;
     }
-    .skills-devops {
-        height: 375px;
-    }
-    .skills-devops:hover {
+    .skills-test {
         height: 475px;
     }
-    .skills-ind{
-        height: 505px;
-    }
-    .skills-ind:hover{
-        height: 602px;
-    }
-    .skills-test{
-        height: 465px;
-    }
     .skills-sales {
-        height: 515px;
+        height: 445px;
     } 
 }
 /* This Css is for Medium Deviced */
@@ -76,25 +74,15 @@
         padding-bottom: 0px;
     }
     .skills-row-first, .skills-lang, .skills-start, .skills-devops{
-        height: 500px;
+        height: 550px;
     }
-    .skills-devops:hover{
-        height: 500px;
-    }
-    .skills-row-second, .skills-ind, .skills-test, .skills-sales,.skills-ind:hover {
-        height: 700px;
-    } 
-}
-@media (min-width: 1065px) {
- 
-    .skills-row-second, .skills-ind, .skills-test, .skills-sales, .skills-ind:hover {
-        height: 630px;
+    .skills-row-second, .skills-ind, .skills-test, .skills-sales {
+        height: 575px;
     } 
 
 }
-@media (min-width: 1127px) {
- 
-    .skills-row-second, .skills-ind, .skills-test, .skills-sales,.skills-ind:hover {
-        height: 605px;
-    }
+@media (min-width: 1130px) {
+     .skills-row-second, .skills-ind, .skills-test, .skills-sales {
+        height: 526px;
+    } 
 }
