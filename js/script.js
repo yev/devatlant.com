@@ -333,7 +333,7 @@ $(document).ready(function(){
             items:2
         },
         1000:{
-            items:4,
+            items:3,
             dots:false
         }
       }
