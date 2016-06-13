@@ -356,6 +356,9 @@ p {
 .skills:hover .chart1,.skills:hover .chart2,.skills:hover .chart3,.skills:hover .chart4,.skills:hover .chart6{
     opacity: 0;
 } 
+.skills:hover .fa-gavel,.skills:hover .fa-cloud,.skills:hover .fa-puzzle-piece,.skills:hover .fa-bug{
+    margin-top: 10px;
+}
 .info {
     width: 100%;
     position: absolute;
@@ -444,6 +447,24 @@ p {
 .indust-link:hover,
 .indust-link:focus{
     color: #333;
+}
+.fa-keyboard-o{
+    color:#2AA2C7;
+}
+.fa-gavel{
+    color:#FD7400;
+}
+.fa-cloud{
+    color:#2ABA97;
+}
+.fa-puzzle-piece{
+    color:#BEDB39;
+}
+.fa-bug{
+    color:#E91E63;
+}
+.fa-video-camera{
+    color:#FFE11A;
 }
 /*---------------------------------------
    SECTION CONTACT              

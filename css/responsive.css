@@ -8,10 +8,10 @@
         height: 575px;
     }
     .skills-start {
-        height: 425px;
+        height: 495px;
     }
     .skills-devops {
-        height: 375px;
+        height: 445px;
     }
     .skills-ind{
         height: 600px;
@@ -20,8 +20,8 @@
         height: 500px;
     }
     .skills-sales {
-        height: 465px;
-    } 
+        height: 500px;
+    }
 }
 @media (min-width: 400px) {
 
@@ -29,13 +29,10 @@
         padding-bottom: 60px;
     }
     .skills-lang {
-        height: 515px;
+        height: 520px;
     }
     .skills-start {
-        height: 425px;
-    }
-    .skills-devops {
-        height: 375px;
+        height: 470px;
     }
     .skills-ind{
         height: 525px;
@@ -43,9 +40,9 @@
     .skills-test {
         height: 500px;
     }
-    .skills-sales {
-        height: 455px;
-    } 
+   .skills-sales {
+        height: 470px;
+    }  
 }
 
 
@@ -56,14 +53,11 @@
     .single_fun_facts {
         padding-bottom: 50px;
     }
-    .skills-start {
-        height: 400px;
-    }
     .skills-test {
         height: 475px;
     }
     .skills-sales {
-        height: 445px;
+        height: 470px;
     } 
 }
 /* This Css is for Medium Deviced */
