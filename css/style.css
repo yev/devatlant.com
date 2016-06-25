@@ -414,7 +414,7 @@ p {
 .skill-descr {
     font-size: 15px;
     line-height: 25px;
-    text-align: center;
+    text-align: justify;
 }
 .console {
     background-color: #000;
