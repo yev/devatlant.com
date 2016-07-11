@@ -4,47 +4,19 @@
     .single_fun_facts {
         padding-bottom: 60px;
     }
-    .skills-lang {
-        height: 575px;
+    .skills-lang, .skills-devops, .skills-ind {
+        height: 390px;
     }
     .skills-start {
-        height: 495px;
-    }
-    .skills-devops {
-        height: 445px;
-    }
-    .skills-ind{
-        height: 600px;
+        height: 365px;
     }
     .skills-test{
-        height: 500px;
+        height: 340px;
     }
     .skills-sales {
-        height: 500px;
+        height: 315px;
     }
 }
-@media (min-width: 400px) {
-
-    .single_fun_facts {
-        padding-bottom: 60px;
-    }
-    .skills-lang {
-        height: 520px;
-    }
-    .skills-start {
-        height: 470px;
-    }
-    .skills-ind{
-        height: 525px;
-    }
-    .skills-test {
-        height: 500px;
-    }
-   .skills-sales {
-        height: 470px;
-    }  
-}
-
 
 /* This Css is for tablet */
 
@@ -53,12 +25,19 @@
     .single_fun_facts {
         padding-bottom: 50px;
     }
-    .skills-test {
-        height: 475px;
+}
+
+@media (max-width: 991px) {
+    .chart1,.chart2,.chart3,.chart4,.chart5,.chart6{
+        display: none;
     }
-    .skills-sales {
-        height: 470px;
-    } 
+    .info{
+        top:0;
+    }
+    .skills:hover .skill-descr,.skills:hover .fa-keyboard-o, .skills:hover .fa-gavel, .skills:hover .fa-cloud, .skills:hover .fa-puzzle-piece, .skills:hover .fa-bug, .skills:hover .fa-video-camera{
+        display: none;
+
+    }
 }
 /* This Css is for Medium Deviced */
 
@@ -68,7 +47,7 @@
         padding-bottom: 0px;
     }
     .skills-row-first, .skills-lang, .skills-start, .skills-devops{
-        height: 550px;
+        height: 570px;
     }
     .skills-row-second, .skills-ind, .skills-test, .skills-sales {
         height: 575px;
