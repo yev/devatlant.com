@@ -472,25 +472,28 @@ p {
 
 .single_fun_facts {
     font-family: 'Source Sans Pro', sans-serif;
+    clear: both;
 }
 .single_fun_facts i {
     color: #f39c12;
-    font-size: 60px;
-    padding-top: 50px;
+    font-size: 45px;
+    float: left;
+    margin-left: 20px;
 }
 .single_fun_facts p, .single_fun_facts p a {
     color: #D7DADB;
-    font-size: 20px;
-    margin-top: 35px;
+    font-size: 17px;
     font-weight: 300;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 15px;
 }
 .single_fun_facts p a{
     text-decoration: none;
+    padding-left: 32px;
 }
 .single_fun_facts .contact-mail {
-    margin-top: 75px;
+    margin-top: 15px;
 }
 .contact {
     background: url(../images/contact.jpg) no-repeat center;
@@ -502,15 +505,16 @@ p {
     background: rgba(0, 0, 0, .65);
 }
 .numbers{
-        color: #D7DADB;
-    font-size: 20px;
-    margin-top: 75px;
+    color: #D7DADB;
+    font-size: 17px;
+    margin-top: 40px;
     font-weight: 300;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .fl-ua,.fl-fr{
     text-align: left;
+    padding-left: 40px;
 }
 .fl-ua:before{
     content:'';
@@ -534,52 +538,35 @@ p {
     border-radius: 50%;
     border: solid 2px #f39c12;
     padding: 3px;
-    height: 150px;
+    height: 80px;
     cursor: pointer;
+    float: left;
+    margin-right: 20px;
 }
-.links {
-    padding-top: 35px;
+.links i {
+    color: #f39c12;
+    font-size: 30px;
 }
 .links a{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+        color: #D7DADB;
+    text-transform: uppercase;
+    vertical-align: super;
+    padding-left: 10px;
+    font-weight: 600;
 }
 .link-github{
-    height: 76px;
-    width: 76px;
-    background-image: url(../images/github.png);
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    padding: 0;
-    background-position: 4px 8px;
-        margin-right: 35px;
     display: inline-block;
 }
-.link-github:hover{
-    background-position: 4px -64px;
-    border: solid 2px #FF9C00;
+.link-twitter, .mail-second-column, .twitter-icon, .links br{
+    display: none;
 }
-.link-twitter{
-    height: 76px;
-    width: 76px;
-    background-image: url(../images/twitter.png);
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    padding: 0;
-    background-position: 4px 8px;
-    display: inline-block;
-}
-.link-twitter:hover {
-    background-position: 4px -72px;
-    border: solid 2px #FF9C00;    
-}
+
 /*---------------------------------------
    SECTION MAP             
 -----------------------------------------*/
 .contact-title{
-    padding-bottom: 75px;
-    padding-top: 53px;
+    padding-bottom: 40px;
+    padding-top: 15px;
 }
 .contact-title h2{
     color:#D7DADB;

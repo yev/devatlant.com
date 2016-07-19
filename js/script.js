@@ -147,17 +147,21 @@ $(document).ready(function() {
 
   "use strict";
 
-  $(window).bind('load', function() {
-    "use strict";
-    parallaxInit();
-  });
+  if(window.matchMedia('(min-width:768px)').matches){
+    $(window).bind('load', function() {
+      "use strict";
+      parallaxInit();
+    });
+  }  else{
+    $('.ourTeam').removeClass('parallax');
+    $('.contact').removeClass('parallax');
+  }
 
   function parallaxInit() {
     "use strict";
     $('.home-parallax').parallax("30%", 0.1);
     $('.subscribe-parallax').parallax("30%", 0.1);
     $('.ourTeam').parallax("10%", 1);
-    /*add as necessary*/
   }
 });
 

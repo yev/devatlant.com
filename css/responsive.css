@@ -1,9 +1,5 @@
 /* This Css is for small mobile */
 @media (min-width: 320px) {
-
-    .single_fun_facts {
-        padding-bottom: 60px;
-    }
     .skills-lang, .skills-devops, .skills-ind {
         height: 390px;
     }
@@ -18,13 +14,101 @@
     }
 }
 
-/* This Css is for tablet */
+@media (max-width: 510px) {
 
-@media (min-width: 760px) {
-
-    .single_fun_facts {
-        padding-bottom: 50px;
+    .contact-title {
+        padding-bottom: 25px;
     }
+    .contact .section_overlay {
+        padding-bottom: 10px;
+    }
+    .contacts .col-xs-6{
+        float: none;
+        width:100%;
+    }
+    .link-github, .links .link-twitter, .contacts .links br{
+        display: none;
+    }
+    .single_fun_facts .numbers {
+        margin-top: 25px;
+    }
+    .single_fun_facts.mail-second-column{
+        margin-top: 15px;
+        margin-left: 12px;
+    }
+    .fl-ua:before, .fl-fr:before{
+        margin-right: 16px;
+    }
+    .links{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .links i {
+        margin-right: 20px;
+    }
+    .links a{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .single_fun_facts p, .single_fun_facts p a, .numbers {
+        font-size: 15px;
+    }
+    .links p {
+        font-size: 13px;
+    }
+}
+
+/* This Css is for tablet */
+@media (max-width: 768px) {
+
+    .ourTeam, .contact {
+        background-position: center;
+    }
+    .mail-second-column, .link-twitter{
+        display: inline-block;
+    }
+    .mail-first-column, .twitter-block, .single_fun_facts i{
+        display: none;
+    }
+    .single_fun_facts .mail-icon{
+        display: inline-block;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .numbers {
+        margin-top: 24px;
+    }
+    .fl-ua, .fl-fr {
+        padding-left: 10px;
+    }
+    .single_fun_facts .contact-mail {
+        margin-top: 0px;
+        padding-top: 0;
+        padding-left: 13px;
+        display: inline-block;
+    }
+    .single_fun_facts p a {
+        padding-left: 6px;
+    }
+    .single_fun_facts p{
+        padding-top: 6px;
+    }
+    .photo-map {
+        height: 65px;
+    }
+    .twitter-icon, .links br{
+        display: inline-block;
+    }
+    .links a{
+        padding-left: 0;
+    }
+    .link-github a, .link-twitter a{
+        padding-left: 10px;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -36,13 +120,12 @@
     }
     .skills:hover .skill-descr,.skills:hover .fa-keyboard-o, .skills:hover .fa-gavel, .skills:hover .fa-cloud, .skills:hover .fa-puzzle-piece, .skills:hover .fa-bug, .skills:hover .fa-video-camera{
         display: none;
-
     }
 }
 /* This Css is for Medium Deviced */
 
 @media (min-width: 992px) {
- 
+
     .single_fun_facts {
         padding-bottom: 0px;
     }
@@ -52,10 +135,9 @@
     .skills-row-second, .skills-ind, .skills-test, .skills-sales {
         height: 575px;
     } 
-
 }
 @media (min-width: 1130px) {
-     .skills-row-second, .skills-ind, .skills-test, .skills-sales {
-        height: 526px;
+ .skills-row-second, .skills-ind, .skills-test, .skills-sales {
+    height: 526px;
     } 
 }
