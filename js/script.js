@@ -65,8 +65,17 @@ $(document).ready(function() {
 
     $(".navbar-nav li a").parent().removeClass("active");
     $(this).parent().addClass("active");
+
+
+  });
+
+  // hide navbar on mobile
+  $(".navbar-nav li a").click(function(){
+    $('.navbar-collapse.in').collapse('hide');
   });
 });
+
+
 
 
 
@@ -87,11 +96,18 @@ $(document).ready(function() {
       var bb = $(this).attr("id");
       var hei = $(this).outerHeight();
       var grttop = $(this).offset().top - 70;
+      if  ($(window).scrollTop() == $(document).height() - $(window).height()){
+        $(".navbar-nav li a").parent().removeClass("active");
+        $(".navbar-nav li a").blur();
+          var uu = $(".navbar-nav li a[href='#CONTACT']").parent().addClass("active");
+     } else{
       if ($(window).scrollTop() > grttop - 1 && $(window).scrollTop() < grttop + hei - 1) {
+        $(".navbar-nav li a").blur();
         var uu = $(".navbar-nav li a[href='#" + bb + "']").parent().addClass("active");
       } else {
         var uu = $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
       }
+    }
     });
   });
 });

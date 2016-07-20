@@ -231,6 +231,10 @@ p {
     height: 60px;
     width: 70px;
 }
+a[title="More information about #FrenchTech"]{
+    color: #fff;
+    font-weight: 400;
+}
 @media (max-width: 380px){
     .lang{
     	top:100px;
