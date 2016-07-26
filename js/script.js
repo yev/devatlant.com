@@ -51,9 +51,6 @@ $(document).ready(function() {
   });
 });
 
-
-
-
  // MENU SECTION ACTIVE
  $(document).ready(function() {
 
@@ -75,12 +72,7 @@ $(document).ready(function() {
   });
 });
 
-
-
-
-
 // Hilight MENU on SCROLl
-
 $(document).ready(function() {
 
   "use strict";
@@ -112,11 +104,7 @@ $(document).ready(function() {
   });
 });
 
-
-
 //SMOOTH MENU SCROOL
-
-
 $(function() {
 	
 	"use strict";
@@ -134,8 +122,6 @@ $(function() {
     }
   });
 });
-
-
 
 // FIX HOME SCREEN HEIGHT
 $(document).ready(function() {
@@ -189,8 +175,7 @@ $(document).ready(function() {
   new WOW().init();
 });
 
-/// SMOOTH SCROLL           
-
+// SMOOTH SCROLL           
 $(document).ready(function() {
 
   "use strict";
@@ -209,7 +194,6 @@ $(document).ready(function() {
   });
   
 // NICE SCROLL FOR TECH ITEMS
-
 $(document).ready(function(){
   $('.skills').hover(function(){
     $('.skills').niceScroll({
@@ -220,8 +204,7 @@ $(document).ready(function(){
   });
 });
 
-    //Skills charts
-    
+//Skills charts    
 $(document).ready(function() {
   var offset=$(window).height()*0.5;
     $(window).scroll(function(){
@@ -342,7 +325,6 @@ $(document).ready(function() {
   });
 
 // OWL CAROUSEL
-
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     responsive:{
