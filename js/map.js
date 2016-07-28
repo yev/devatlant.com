@@ -28,7 +28,7 @@ $(document).ready(function() {
         $('#map-canvas').animate({height:'500px'});
         $('#map-canvas').css('overflow','visible');
 
-        var offsetTop = $('#map-canvas').offset().top;
+        var offsetTop = $('#map-canvas').offset().top-50;
         $('html, body').animate({scrollTop: offsetTop},500);
     };
     function hideMap(){
@@ -38,7 +38,18 @@ $(document).ready(function() {
     }
 
     var closed=true;
-    $('.photo-map').click(
+    $('.address .fa-map-marker').click(
+        function(){
+            if(closed){
+                showMap();
+                return closed=false;
+            } else if(!closed){
+                hideMap();
+                return closed=true;
+            }
+        }
+    );
+    $('.address p').click(
         function(){
             if(closed){
                 showMap();
