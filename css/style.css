@@ -231,6 +231,10 @@ p {
     height: 60px;
     width: 70px;
 }
+a[title="More information about #FrenchTech"]{
+    color: #fff;
+    font-weight: 400;
+}
 @media (max-width: 380px){
     .lang{
     	top:100px;
@@ -469,31 +473,42 @@ p {
 /*---------------------------------------
    SECTION CONTACT              
 -----------------------------------------*/
-
-.single_fun_facts {
-    font-family: 'Source Sans Pro', sans-serif;
-    clear: both;
+.address .fa-map-marker, .phone .fa-phone, .mail .fa-envelope, .links .fa-link{
+    color: #fff;
+    background-color: #f39c12;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    opacity: 1;
 }
-.single_fun_facts i {
-    color: #f39c12;
-    font-size: 45px;
-    float: left;
-    margin-left: 20px;
+.address, .mail, .phone, .links{
+    padding-bottom: 10px;
 }
-.single_fun_facts p, .single_fun_facts p a {
+.contacts p, .contacts a {
+    display: inline-block;
     color: #D7DADB;
-    font-size: 17px;
-    font-weight: 300;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: 600;
+    margin: 0;
+    font-size: 14px;
 }
-.single_fun_facts p a{
-    text-decoration: none;
-    padding-left: 32px;
+.contacts a{
+    padding: 0;
 }
-.single_fun_facts .contact-mail {
-    margin-top: 15px;
+.address p, .phone p, .links p{
+    position: relative;
+    top:7px;
+}
+.address .fa-map-marker:hover{
+    cursor: pointer;
+}
+.address p:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .contact {
     background: url(../images/contact.jpg) no-repeat center;
@@ -501,72 +516,16 @@ p {
 }
 .contact .section_overlay {
     
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     background: rgba(0, 0, 0, .65);
-}
-.numbers{
-    color: #D7DADB;
-    font-size: 17px;
-    margin-top: 40px;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.fl-ua,.fl-fr{
-    text-align: left;
-    padding-left: 40px;
-}
-.fl-ua:before{
-    content:'';
-    height: 24px;
-    width: 24px;
-    background-image: url(../images/Ukraine.png);
-    display: inline-block;
-    vertical-align: text-bottom;
-    margin-right: 10px;
-}
-.fl-fr:before{
-    content:'';
-    height: 24px;
-    width: 24px;
-    background-image: url(../images/France.png);
-    display: inline-block;
-    vertical-align: text-bottom;
-    margin-right: 10px;
-}
-.photo-map {
-    border-radius: 50%;
-    border: solid 2px #f39c12;
-    padding: 3px;
-    height: 80px;
-    cursor: pointer;
-    float: left;
-    margin-right: 20px;
-}
-.links i {
-    color: #f39c12;
-    font-size: 30px;
-}
-.links a{
-        color: #D7DADB;
-    text-transform: uppercase;
-    vertical-align: super;
-    padding-left: 10px;
-    font-weight: 600;
-}
-.link-github{
-    display: inline-block;
-}
-.link-twitter, .mail-second-column, .twitter-icon, .links br{
-    display: none;
 }
 
 /*---------------------------------------
    SECTION MAP             
 -----------------------------------------*/
 .contact-title{
-    padding-bottom: 40px;
-    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-top: 0;
 }
 .contact-title h2{
     color:#D7DADB;
