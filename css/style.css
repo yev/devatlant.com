@@ -946,3 +946,8 @@ a[title="More information about #FrenchTech"]{
     top: 40%;
     left: 40%;
 }
+
+.fact{
+    font-size: medium;
+    font-family: Georgia;
+}
