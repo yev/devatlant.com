@@ -951,3 +951,11 @@ a[title="More information about #FrenchTech"]{
     font-size: medium;
     font-family: Georgia;
 }
+
+.frTechMain {
+    background: url(../images/main_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-attachment: fixed;
+}
