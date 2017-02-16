@@ -1,0 +1,159 @@
+/* BODY */
+body {
+	background-color: white;
+}
+
+
+section {
+	padding: 20px;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+/* HEADER */
+
+.header_main-page {
+    background: url(../../images/main-page/header-bg.png);
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_main-page {
+	margin-top: 25px;
+	display: block;
+}
+
+.title-header_main-page {
+	padding: 200px 0;
+	color: white;
+}
+
+.block-item_header {
+	margin: 0;
+	padding: 10px;
+}
+
+.item_header {
+	border-width: 0;
+	border-radius: 0;
+	padding: 50px;
+	margin:0;
+
+	background-color: rgba(47, 102, 141, 0.9);
+	color: white;
+}
+
+.item_header p {
+	margin-top: 10px;
+}
+
+/* STUDENT SECTION */
+
+.button_student-section {
+	border-width: 0;
+	border-radius: 0;
+	width: 400px;
+	padding: 20px;
+	margin-top: 30px;
+
+	background-color: rgb(241, 95, 34);
+	color: white;
+}
+
+.button_student-section:hover {
+	background-color: rgb(201, 85, 36);
+	color: white;
+}
+
+.statistics_student-section {
+	margin-top: 60px;
+}
+
+.item1-start_student-section {
+	background: url(../../images/main-page/dig_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.item2-start_student-section {
+	background: url(../../images/main-page/dig_2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.item3-start_student-section {
+	background: url(../../images/main-page/dig_3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.item1-start_student-section h2,
+.item2-start_student-section h2,
+.item3-start_student-section h2 {
+	margin-top: 80px;
+}
+
+.competition_student-page {
+	margin-top: 40px;
+}
+
+.box-facts_student-section p {
+	margin-top: 40px;
+}
+
+.study_student-section {
+
+}
+
+.block1-study_student-section {
+	background: url(../../images/main-page/student.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 167px;
+}
+
+.block2-study_student-section,
+.block3-study_student-section {
+	height: 167px;
+	vertical-align: middle;
+	background-color: #ccc;
+
+}
+
+.block2-study_student-section p,
+.block3-study_student-section p {
+	vertical-align: middle;
+}
+
+.block4-study_student-section{
+	background: url(../../images/main-page/subject.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 167px;
+}
+
+.box-study_student-section {
+	margin-top: 30px;
+}
+
+.initiative_student-page {
+	margin-top: 70px;	
+}
+
+
+
+.body-text {
+	margin: 25px 0;
+}
+
+
+
+.body-map {
+	height: 1000px;
+    background: url(../../images/main-page/7facts.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
