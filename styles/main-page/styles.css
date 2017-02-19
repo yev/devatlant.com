@@ -1,6 +1,7 @@
 /* BODY */
 body {
 	background-color: white;
+	/*font-family: 'Open Sans', sans-serif;*/
 }
 
 
@@ -133,11 +134,11 @@ h2 {
 	margin-top: 10px;
 }
 
+/* BOX-study */
+
 .box-study_student-section {
 	margin-top: 30px;
 }
-
-/* BOX-study */
 
 .block1-study_student-section {
 	height: 0;
@@ -222,6 +223,10 @@ h2 {
 	margin-top: 40px;
 }
 
+.items-advantages_startup-section h4 {
+	margin-top: 5px;
+}
+
 /* BUSINESS SECTION */
 
 .title_business-section {
@@ -294,7 +299,7 @@ h2 {
 	position: absolute;
 	display: block;
 	content: '';
-	left: -17px;
+	left: -57px;
 	top: 8px;
 	width: 7px;
 	height: 7px;
@@ -310,7 +315,7 @@ h2 {
 	margin-top: 60px;
 	margin-bottom: 100px;
 	padding-left: 20px;
-	border-left: 5px solid #0f426b;
+	border-left: 7px solid #0f426b;
 }
 
 .risks_business-section p{
@@ -319,15 +324,7 @@ h2 {
 }
 
 
-@media (min-width: 430px) {
-	.wrap-risks_business-section {
-		padding-left: 15px;
-}
-
 @media (min-width: 768px) {
-/*	.wrap-block_header {
-		display: table;
-	}*/
 
 	.block-item_header {
 		display: table-cell;
@@ -366,6 +363,9 @@ h2 {
 		display: table-cell;
 		width: 15%;
 	}
+
+	.wrap-risks_business-section {
+		padding-left: 15px;
 }
 
 @media (min-width: 992px) {
