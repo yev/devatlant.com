@@ -6,7 +6,8 @@ body {
 
 .header_main-page,
 .student-section,
-.startup-section{
+.startup-section,
+.business-section {
 	padding: 20px;
 }
 
@@ -56,7 +57,6 @@ h2 {
 	border-radius: 0;
 	padding: 50px;
 	margin:0;
-
 	background-color: rgba(47, 102, 141, 0.9);
 	color: white;
 }
@@ -71,7 +71,8 @@ h2 {
 .button_startup-section {
 	border-width: 0;
 	border-radius: 0;
-	width: 400px;
+	width: 100%;
+	max-width: 400px;
 	padding: 20px;
 	margin-top: 30px;
 
@@ -80,7 +81,7 @@ h2 {
 }
 
 .button_student-section:hover,
-.button_startup-section:hover{
+.button_startup-section:hover {
 	background-color: rgb(201, 85, 36);
 	color: white;
 }
@@ -221,8 +222,151 @@ h2 {
 	margin-top: 40px;
 }
 
+/* BUSINESS SECTION */
+
+.title_business-section {
+	margin-top: 60px;
+}
+
+.title_business-section p {
+	margin-top: 10px;
+}
+
+.second-col-table_box-business:before {
+	position: absolute;
+	display: block;
+	content: '';
+	left: 0;
+	top: 1px;
+	width: 2px;
+	height: 100%;
+	background-color: rgba(47, 102, 141, 1);
+}
+
+.table_box-business {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.mission_box-business {
+	display: table-cell;
+	vertical-align: middle;
+	width: 85%;
+	background-color: rgba(25, 81, 125, 1);
+}
+
+.mission_box-business h2,
+.mission_box-business p {
+	margin-top: 50px; 
+	color: white;
+}
+
+.mission_box-business p {
+	margin-bottom: 60px;
+	padding: 0 40px;
+}
+
+.white-block_box-business {
+	display: none;
+}
+
+.first-col-table_box-business {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 30px;
+}
+
+.second-col-table_box-business ul {
+	list-style: none;
+}
+
+.second-col-table_box-business li {
+	position: relative;
+	padding-bottom: 40px;
+	color: rgba(47, 102, 141, 1);
+}
+
+.second-col-table_box-business li:last-child {
+	padding-bottom: 5px;
+}
+.second-col-table_box-business li:before {
+	position: absolute;
+	display: block;
+	content: '';
+	left: -17px;
+	top: 8px;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: rgba(47, 102, 141, 1);
+}
+
+.wrap-risks_business-section {
+	padding-left: 0;
+}
+
+.risks_business-section {
+	margin-top: 60px;
+	margin-bottom: 100px;
+	padding-left: 20px;
+	border-left: 5px solid #0f426b;
+}
+
+.risks_business-section p{
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
 
 
+@media (min-width: 430px) {
+	.wrap-risks_business-section {
+		padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+/*	.wrap-block_header {
+		display: table;
+	}*/
+
+	.block-item_header {
+		display: table-cell;
+		vertical-align: top;
+		float: none;
+		height: 100%;
+	}
+
+	.item_header {
+		height: 100%;
+	}
+
+	.row-table_box-business {
+		display: table;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.first-col-table_box-business,
+	.second-col-table_box-business {
+		position: relative;
+		display: table-cell;
+		vertical-align: top;
+		float: none;
+	}
+
+	.first-col-table_box-business {
+		width: 45%;
+		padding: 0;
+		height: 100%;
+		margin-bottom: 0; 
+	}
+	.second-col-table_box-business {
+		width: 55%;
+	}
+	.white-block_box-business {
+		display: table-cell;
+		width: 15%;
+	}
+}
 
 @media (min-width: 992px) {
 	.item1-start_student-section,
@@ -265,5 +409,6 @@ h2 {
 		padding-bottom: 14.05%;
 	}
 }
+
 
 
