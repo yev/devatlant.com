@@ -503,7 +503,8 @@ section.six .address {
     max-width: 220px;
     font-size: 16px;
     margin: 0 auto;
-    } 
+    padding: 30px 0;
+    }
 .map-link {
     font-weight: 600;
     color: #222;
@@ -515,7 +516,7 @@ section.six .address {
     color: #ec981e;
     border-bottom: 2px solid #ec981e;
     }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     section.six .row {
         display:  table;
         }
@@ -524,10 +525,13 @@ section.six .address {
         vertical-align: middle;
         float: none;
         }
-    }
+    }*/
 @media (max-width: 767px) {
     section.six, section.six h2, section.six .description {
         text-align: center;
+        }
+    section.six .row [class*='col-'] {
+        padding-bottom: 50px; 
         }
     }
 /* --------------- FOOTER --------------------- */
