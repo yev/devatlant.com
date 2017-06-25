@@ -199,19 +199,28 @@ section.one .table {
 .white-block {
     background-color: rgba(255,255,255,.4);
     padding: 30px;
-    width: 335px;
+    width: 300px;
     margin: 0 auto;
     text-align: center;
-    font-size: 22px;
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.4em;
     }
 .white-block img {
     display: block;
     margin: 10px auto 20px;
     max-width: 100%;
     }
+.white-block table {
+    width: 100%;
+    color: white;
+}
+.white-block td {
+    padding-right: 10px;
+}
+
+.white-block .left{
+    text-align: right;
+    width: 40%;
+    color: darkred;
+}
 @media (max-width: 767px) {
     section.one .table-cell {
         display: block;
