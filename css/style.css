@@ -588,7 +588,17 @@ footer a.lin:hover {
         margin: 15px 0 5px
         }
     }
-    
+
+.carousel-indicators{
+    bottom: 0px;
+}
+
+.carousel-indicators ol{
+    margin-bottom: 0px;
+}
+.carousel-indicators .active{
+    background-color: orange;
+}
     
     
     
