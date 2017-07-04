@@ -599,6 +599,9 @@ footer a.lin:hover {
 .carousel-indicators .active{
     background-color: orange;
 }
+.one .carousel .item img {
+    margin: 0 auto;
+}
     
     
     
