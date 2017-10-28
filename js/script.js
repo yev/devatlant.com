@@ -21,4 +21,10 @@ jQuery('document').ready(function($){
                 $('#header').removeClass('thin');
             });
 
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+
+    $('a.item').on('click', function(e) {e.preventDefault(); return true;});
+
  });
