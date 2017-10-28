@@ -4,27 +4,30 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Стипендии Французского Правительства</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="devatlant - software company providing top-class solutions">
     <meta name="description" content="FrenchTech in Ukraine promoted by DevAtlant company">
     <meta name="keywords" content="студентам, стипендии, учеба во Франции, стипендии BGF, BGF, стипендии Французского Правительства">
     <meta name="author" content="Yevgen Voronetskyy">
-    <title>Стипендии Французского Правительства</title>
+
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Style -->
+    <link href="styles/main-page/styles.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
-    <!--OWL CAROUSEL-->
-	<link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Font Oswald -->
+    <!--link href="https://fonts.googleapis.com/css?family=Oswald:600&amp;subset=cyrillic" rel="stylesheet">
 
-    <!-- Style -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+    <!-- Font OpenSans -->
+    <!--link href='https://fonts.googleapis.com/css?family=Open+Sans:600,600italic' rel='stylesheet' type='text/css'-->
 
-        <!-- Responsive CSS -->
-        <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -43,416 +46,402 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-    <link rel="icon" type="image/png" href="favicon-32x32.png">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
-<body style="background-color: white">
-    <!-- PRELOADER -->
-    <div class="spn_hol">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-    <!-- END PRELOADER -->
+<body>
 
  <!-- =========================
-     START HEADER SECTION
+     START HEADER
      ============================== -->
-     <section class="page parallax" id="HOME">
-        <div class="section_overlay">
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">
-                            <img src="images/logo.png" alt="Logo">
-                        </a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <!-- NAV -->
-                            <li><a href="index.html#HOME">HOME</a> </li>
-                            <li><a href="index.html#ABOUT">ABOUT </a> </li>
-                            <li><a href="index.html#SERVICE">SERVICES</a></li>
-                            <li><a href="http://blog.devatlant.com" title="Devatlant blog">BLOG</a></li>
-                            <li><a href="index.html#CONTACT">CONTACT </a> </li>
-                            <!--div class="btn-group" style="padding-top: 10px">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Language <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Français</a></li>
-                                    <li><a href="#">Русский</a></li>
-                                </ul>
-                            </div-->
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container- -->
-            </nav>
 
-            <div class="container home-container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="logo text-center">
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2 col-sm-1 col-md-offset-3 text-center" style="vertical-align: middle">
-                        <!--img src="images/logo-frenchtech.png" height="100px" class=" img-responsive" alt="LaFrenchTech"/-->
-                        <img src="images/marianne.jpg" class="img-responsive">
-                    </div>
-                    <div class="col-md-4 text-left">
-                        <div class=" text-center" style="color: darkblue">
-                            <h2>Go to France</h2>
-                            <p class="text-center">
-                                <i class="fa fa-quote-left" style="color: lightgrey"></i>
-                                Путеводитель по программам
-                                Французского Правительства
-                                направленных на развитие
-                                IT-индустрии
-                                <i class="fa fa-quote-right" style="color: lightgrey"></i>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-
-                </div>
-                <div class="row" style="margin-top: 100px;">
-                    <div class="col-md-3 col-md-offset-0 well text-center wow fadeInDown" data-wow-delay="1000ms">
-                        <i class="fa fa-graduation-cap fa-2x" style="color: #3276B1"></i>
-                        <h2>Cтудент</h2>
-                        <p>Стипендии Французского Правительства для получения Master degree. 1 год во Франции.</p>
-                        <a href="#student" class="btn btn-primary btn-sm active" role="button">Узнать больше</a>
-                    </div>
-                    <div class="col-md-4 col-md-offset-1 well text-center wow fadeInDown" data-wow-delay="2000ms">
-                        <i class="fa fa-euro fa-2x" style="color: #3276B1"></i>
-                        <h2>
-                            Стартап
-                        </h2>
-                        <p>Финансирование вашей бизнес идеи. Переезд в французский бизнес-инкубатор. </p>
-                        <a href="#startup" class="btn btn-primary btn-sm active text-right" role="button"> Узнать больше</a>
-                    </div>
-                    <div class="col-md-3 col-md-offset-1  well text-center wow fadeInDown" data-wow-delay="3000ms">
-                        <i class="fa fa-suitcase fa-2x" style="color: #3276B1"></i>
-                        <h2>
-                            Бизнес
-                        </h2>
-                        <p>Организация бизнес-встреч с французскими предприятиями. Нетворкинг.</p>
-                        <a href="#business" class="btn btn-primary btn-sm active text-right" role="button"> Узнать больше</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="student page" id="student">
+    <section id="HEADER" class="header_main-page">
         <div class="container">
-            <hr/>
-            
+
+            <!--HEADER logo-->
             <div class="row">
-                <div class="text-center">
-                <h1> 2016  <span style="font-family: monospace; font-size: large">год</span>  106 <span style="font-family: monospace; font-size: large">кандидатов</span> 34 <span style="font-family: monospace; font-size: large">стипендии</span></h1></div>
-                <div class="col-md-12" style="background-image:url('images/statis_img.png'); background-repeat:no-repeat;background-size:100%; height: 340px">
-
-
-                        <a href="http://www.ambafrance-ua.org/Bourses-du-gouvernement-francais-resultats-de-la-selection-2016" title="официальные результаты конкурса BGF 2016 в Украине"><i class="fa fa-comment"></i></a>
-                    </h1>
-                </div>
-                
-            </div>
-            <div class="row">
-
-                <div class="col-lg-9 col-md-9">
-                    <div class="text-justify">
-                        <h1 class="text-center">Студентам</h1>
-                        В европейском многообразии высших учебных заведений <strong>французские университеты</strong> занимают высокие места.
-                        Сильнейшие математические школы (например, <a href="http://www.ens.fr/">ENS rue d’Ulm</a>)
-                        регулярно выпускающие лауреатов <a href="https://fr.wikipedia.org/wiki/Médaille_Fields" title="Fields Medal"> Медали Филдса</a>,
-                        имеют непосредственное влияние на развитие <strong>прикладной математики и информатики</strong> в целом.
-
-                        <strong>Французское правительство</strong> на протяжении последних 30 лет поддерживает программы по
-                        привлеченияю <strong>иностранных студентов</strong>.
-
-                        <p>
-                        <div class="panel panel-primary text-center">
-                            <a href="http://www.diplomatie.gouv.fr/fr/venir-en-france/etudier-en-france/financer-le-projet-bourses/">Здесь</a> можно найти
-                            официальный перечень этих программ (на французском).
-                            </div>
-                        <img  class="media-object img-thumbnail img-responsive" width="100%" src="images/etudierEnFrance.jpg" alt="étudier en France" title="étudier en France"/>
-                    </div>
-                    <div class="jumbotron" style="margin-top: 10px">
-                        <div class="text-center panel-heading">
-                            <h2> Стипендия Французского Правительства <span class="label label-primary">7 фактов</span></h2>
-                        </div>
-                        <div class="panel-body" style="margin-left: 20px">
-
-                            <ol>
-                                <li>Возможность учиться в французском университете на протяжении <b>1-го года</b> и получить государственный <span class="label label-primary fact">диплом Master M2</span>.</li>
-                                <li>Открытие <span class="label label-primary fact">студенческой визы</span> и приоритетный режим в различных административных вопросах на территории Франции.</li>
-                                <li>Получение стипендии на обучение. Cтипендия составляет порядка <span class="label label-primary fact">760 евро в месяц</span>.</li>
-                                <li>Получение <span class="label label-primary fact">льготного жилья</span> на время учебы/стажировки через CNOUS/CROUS.</li>
-                                <li>Одноразовая финансовая помощьна покупку необходимых вещей для учебы - <span class="label label-primary fact">ноутбук</span>, <span class="label label-primary fact">принтер</span> и тд.</li>
-                                <li>Бесплатная медицинская <span class="label label-primary fact">страховка</span> на период обучения.</li>
-                                <li><span class="label label-primary fact">Статус лауреата</span> стипендии Французского Правительства -
-                                    возможность посещать различные мероприятия организованные сообществом
-
-                                    <a href="https://www.francealumni.fr/uk/посада/oukraina/сторінка/6218/dhydhzdhdhdh" title="france alumni ukraine">FRANCE ALUMNI</a>  и Посольством Франции. </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3" style="padding-top: 50px">
-
-                        <div class="text-justify" >
-
-                            Каждый год <strong>Посольство Франции в Украине</strong> проводит конкурс на получение <strong>стипендии Французского
-                            Правительства</strong>. Эти стипендии известны под аббревиатурой <abbr>BGF</abbr> -
-                            <strong> Bourses du Gouvernement Français</strong>. Такая стипендия дает возможность поехать
-                            учиться на один год в один из университетов Франции.
-
-                            <hr/>
-
-
-                            <hr/>
-                            <h3 class="text-center"><span class="label label-primary">С чего начать</span></h3>
-                            <ol style="margin-left: 20px;">
-                                <li>Заполнить заявку</li>
-                                <li>Собрать необходимые документы</li>
-                                <li>Пройти собеседование с жюри в посольстве</li>
-                            </ol>
-
-                            Детально о правилах участия в конкурсе на получение стипендии читайте на
-
-                            <a href="http://www.ukraine.campusfrance.org/page/стипендії-уряду-франції" title="стипендії-уряду-франції">официальной страничке</a> Французского посольства в Украине
-
-                        </div>
-
-                    <hr/>
-                    <div class="text-justify">
-                        <p>Инициатива компании <strong><nobr>Devatlnat Software</nobr></strong> состоит в популяризации таких программ среди <b>студентов</b>
-                            IT-специальностей в Украине.
-                        </p>
-                        <h3 class="text-center">Devatlant Software для студентов</h3>
-                        <ul>
-                            <li> многие наши сотрудники являются выпускниками французских ВУЗов и охотно делятся своим опытом.
-                                <br>Например,
-                                <a href="http://blog.devatlant.com/blog/2016/05/10/master-po-informatikie-vo-frantsii-programma-obuchenia/"
-                                   title="Master по информатике во Франции - программа обучения">здесь</a> и
-                                <a href="http://blog.devatlant.com/blog/2016/05/05/vyuchitsia-na-proghrammitsa-vo-frantsii/"
-                                   title="Выучиться на программиста во Франции - личный опыт">здесь</a></li>
-                            <li>мы организовываем встречи в Вуз-ах, митапы, конференции в городах Укранины</li>
-                            <li>мы приглашаем на работу и/или стажировки студентов IT-специальностей. Свои кандидатуры Вы можете отправить на
-                                <nobr><a href="mailto:contact@devatlant.com?subject=Работа/стажировка в DevAtlant Software"
-                                   title="Работа/стажировка в DevAtlant Software"> <i class="fa fa-envelope"></i> contact@devatlant.com</a></nobr>
-                            </li>
-                            <li>cледите за новостями на нашем твитере - <nobr><a href="https://twitter.com/devatlant"><i class="fa fa-twitter"></i> <b> @devAtlant</b></a></nobr></li>
-                        </ul>
-                    </div>
-            </div>
-
-
-
-        </div>
-    </section>
-    <!-- End Student Section -->
-
-
-    <section class="startup page" id="startup">
-        <div class="container">
-            <div class="row">
-                <div class="page-header text-center">
-                    <h1>Стартап</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-md-offset-1">
-                    <a href="http://frenchtechticket.com/" title="Перейти на официальный сайт">
-                        <img class="img-thumbnail img-responsive " src="images/FrenchTechTickets.jpg">
+                <div class="col-md-12 logo_main-page">
+                    <a href="#">
+                        <img src="images/main-page/logo.png" alt="Logo">
                     </a>
                 </div>
-                <div class="col-md-7">
-                    <p class="lead text-justify">
-                        <b class="text-danger"><a href="http://frenchtechticket.com/" title="Перейти на официальный сайт">French Tech Ticket</a></b>
-                        - cпециальная программа Французского правительства для привлечения и финансирования <b>иностранных предпринимателей в IT</b>,
-                        у которых есть минимально работающий продукт.
-                    </p>
+            </div>
+            <!-- AND HEADER logo -->
+
+
+            <!-- HEADER title-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-header_main-page text-center">
+                        <h1>DevAtlant Software</h1>
+                        <p>Развивает программы Французского Правительства среди студентов IT-специальностей в Украине.</p>
+                    </div>
                 </div>
-                <!--<ul>-->
-                    <!--<li>FrenchTech ticket</li>-->
-                    <!--<li>Создание IT-компании</li>-->
-                    <!--<li> экоситсема IT в Côtes-d'Armor </li>    https://fr.wikipedia.org/wiki/Côtes-d%27Armor-->
-                <!--</ul>-->
+            </div>
+            <!-- AND HEADER title-->
+        </div>
+
+        <!-- HEADER block-item-->
+        <div class="row wrap-block_header">
+            <div class="col-sm-4 block-item_header " data-wow-delay="1000ms">
+                <div class="item_header text-center thumbnail wow fadeInDown">
+                    <h3>СТУДЕНТ</h3>
+                    <img src="images/main-page/line_white.png" alt="line">
+                    <p>Стипендии Французского Правительства для получения Master degree 1 год во Франции.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 block-item_header">
+                <div class="item_header text-center thumbnail">
+                    <h3>СТАРТАП</h3>
+                    <img src="images/main-page/line_white.png" alt="line">
+                    <p>Финансирование вашей бизнес идеи. Переезд в французский бизнес-инкубатор.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 block-item_header">
+                <div class="item_header text-center thumbnail">
+                    <h3>БИЗНЕС</h3>
+                    <img src="images/main-page/line_white.png" alt="line">
+                    <p>Организация бизнес-встреч с французскими предприятиями</br> Нетворкинг.</p>
+                </div>
+            </div>
+        </div>
+        <!-- AND HEADER block-item-->
+
+    </section>
+    <!-- END HEADER -->
+
+
+
+<!-- =========================
+     START STUDENT SECTION
+     ============================== -->
+    <section id="STUDENT" class="student-section">
+
+        <!-- STUDENT SECTION first-part-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="firfst-part_student-section text-justify">
+                        <p>В европейском многообразии высших учебных заведений французские университеты занимают высокие места. Сильнейшие математические школы (например, <b>ENS rue d'Ulm</b>) регулярно выпускающие лауреатов <b>Медали Филдса</b>, имеют непосредственное влияние на развитие прикладной математики и информатики в целом. Французское правительство на протяжении последних 30 лет поддерживает <b>программы по привлечению иностранных студетов.</b>
+                        </p>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                 <div class="col-md-2 well wow fadeInLeftBig text-justify" data-wow-delay="500ms" style="height: 300px">
-                     <h3 class="text-center">Капитал</h3>
-                     <p><b class="text-danger">45,000</b> евро в год <b class="text-danger">20,000</b> для личного использования + <b class="text-danger">25,000</b>
-                     для развития Вашей компании</p>
-                     <div class="text-center"><i class="fa fa-gift fa-4x" style="color: darkorange"></i></div>
-                 </div>
-                <div class="col-md-2 well wow fadeInLeftBig text-justify" data-wow-delay="1000ms" style="height: 300px">
-                    <h3 class="text-center">Вид на жительство</h3>
-                    <p>Ускоренная и упрощенная процедура получения <b class="text-danger">вида на жительство</b></p>
-                    <div class="text-center"><i class="fa fa-book fa-4x" style="color: darkorange"></i></div>
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <a href="" class="btn button_student-section" role="button">ОФИЦИАЛЬНЫЙ ПЕРЕЧЕНЬ ПРОГРАММ</a>
                 </div>
-                <div class="col-md-2 well wow fadeInLeftBig text-justify" data-wow-delay="1500ms" style="height: 300px">
-                    <h3 class="text-center">Обучение</h3>
-                    <p>Мастер-классы, нетворкинг, менторство, <b class="text-danger">2 дня для демо-сессий</b> с потенциальными инвесторами</p>
-                    <div class="text-center"><i class="fa fa-university fa-4x" style="color: darkorange"></i></div>
+            </div>
+        </div>
+        <!-- AND STUDENT SECTION first-part-->
 
+        <!-- STUDENT SECTION statistics-->
+        <div class="container statistics_student-section">
+            <div class="row custom-table_statistics-grant">
+                <div class="col-md-3 text-left year-statistics_student-section">
+                    <p>2016 <span>год</span></p>
                 </div>
-                <div class="col-md-2 well wow fadeInRightBig text-justify" data-wow-delay="1500ms" style="height: 300px">
-                    <h3 class="text-center">Инкубатор</h3>
-                    <p>Предоставление офиса на <b class="text-danger">12 месяцев в одном из 41 инкубаторов</b> расположенных в крупных французских городах</p>
-                    <div class="text-center"><i class="fa fa-home fa-4x" style="color: darkorange"></i></div>
+                <div class="col-md-2 text-left person-statistics_student-section">
+                    <p>106 <span>кандидатов</span></p>
                 </div>
-                <div class="col-md-2 well wow fadeInRightBig text-justify" data-wow-delay="1000ms" style="height: 300px">
-                    <h3 class="text-center">Help-desk</h3>
-                    <p><b class="text-danger">Выделенный помощник</b> в решении административных задач, для Вашей полной концентрации на развитие продукта</p>
-                    <div class="text-center"><i class="fa fa-pencil-square-o fa-4x" style="color: darkorange"></i></div>
+                <div class="col-md-2 text-left grant-statistics_student-section">
+                    <p>34 <span>стипендии</span></p>
                 </div>
-                <div class="col-md-2 well wow fadeInRightBig text-justify" data-wow-delay="500ms" style="height: 300px">
-                    <h3 class="text-center">Релокация</h3>
-                    <p>Помощь в организации <b class="text-danger">релокации</b> во Францию</p>
-                    <div class="text-center"><i class="fa fa-truck fa-4x" style="color: darkorange"></i></div>
+                <div class="col-md-5 text-center title-statistics_student-section">
+                    <h4>ФРАНЦУЗСКИЕ ГОСУДАРСТВЕННЫЕ СТИПЕНДИИ</h4>
+                    <a class="btn btn-default" href="http://www.ambafrance-ua.org/Bourses-du-gouvernement-francais-resultats-de-la-selection-2016" title="официальные результаты конкурса BGF 2016 в Украине"><i class="fa fa-comment"></i>РЕЗУЛЬТАТЫ ОТБОРА В УКРАИНЕ</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/main-page/statis_img.png" alt="statistics">
+                </div>
+            </div>
+        </div>
+        <!--AND STUDENT SECTION statistics-->
+
+        <!-- STUDENT SECTION start-->
+        <div class="container start_student-section">
+            <div class="row">
+                <div class="col-md-12  text-center">
+                    <h2>C ЧЕГО НАЧАТЬ</h2>
+                    <img src="images/main-page/line.png" alt="line">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1 text-center item1-start_student-section">
+                    <h3>ЗАЯВКА</h3>
+                    <p>На сайте в любое удобное время заполнить заявку</p>
+                </div>
+                <div class="col-md-4 text-center item2-start_student-section">
+                    <h3>ДОКУМЕНТЫ</h3>
+                    <p>Собрать все необходимые документы</p>
+                </div>
+                <div class="col-md-3 text-center item3-start_student-section">
+                    <h3>СОБЕСЕДОВАНИЕ</h3>
+                    <p>Пройти собеседование с жюри в посольстве</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="competition_student-section">
+                        <p>Детально о правилах участия в конкурсе на получение стипендии читайте на официальной страничке </br>Французского посольства в Украине</p>
+                        <a href="http://www.ukraine.campusfrance.org/page/стипендії-уряду-франції" title="стипендії-уряду-франції" class="btn button_student-section" role="button">ЧИТАТЬ ДАЛЕЕ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- AND STUDENT SECTION start-->
+
+        <!-- STUDENT SECTION map facts-->
+        <div class="container">
+            <div class="map-facts_student-section">
+                <div class="row">
+                    <div class="col-md-12 text-center title-facts_student-section">
+                        <h2>СТИПЕНДИЯ ФРАНЦУЗСКОГО ПРАВИТЕЛЬСТВА</h2>
+                        <p>Каждый год Посольство Франции в Украине проводит конкурс на получение стипендии Французского Правительства.</br>Эти стипендии известны под аббревиатурой <b>BGF - Bourses du Gouvernement Français.</b></br>Такая стипендия дает возможность поехать учиться на один год в один из университетов Франции.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-1 text-right item1-map-facts_student-section">
+                        <h4>ДИПЛОМ</h4>
+                        <p>Возможность учиться</br>в французском университете</br>1 год и получить государственный</br>диплом Master M2</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 text-left item2-map-facts_student-section">
+                        <h4>СТИПЕНДИЯ</h4>
+                        <p>Получение стипендии</br>на обучение. Стипендия</br>составляет порядка 760</br>евро в месяц</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 text-right item3-map-facts_student-section">
+                        <h4>ЖИЛЬЕ</h4>
+                        <p>Получение льготного жилья на</br>время учебы/стажировки через</br>CNOUS/CROUS</br></p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-4 text-left item4-map-facts_student-section">
+                        <h4>СТРАХОВКА</h4>
+                        <p>Бесплатная медицинская</br>страховка на период</br>обучения</br></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 text-right item5-map-facts_student-section">
+                        <h4>КОМПЬЮТЕР</h4>
+                        <p>Одноразовая финансовая помощь</br>на покупку необходимых вещей</br>для учебы - ноутбук,</br>принтер и т.д.</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-4 text-left item6-map-facts_student-section">
+                        <h4>СТАТУС</h4>
+                        <p>Статус лауреата стипендии</br>Французского Правительства -</br>посещения мероприятий,</br>организованных FRANCE ALUMNI</br>и Посольством Франции</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4 item7-map-facts_student-section">
+                        <h4>ВИЗА</h4>
+                        <p>Открытие студенческой визы и приоритетеный режим в различных административных вопросах на территории Франции</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--AND STUDENT SECTION map facts-->
+
+        <!-- STUDENT SECTION study-->
+        <div class="container title-study_student-section">
+            <div class="row">
+                <div class="col-md-12 text-center study_student-section">
+                    <h2>DevAtlant Software ДЛЯ СТУДЕНТОВ</h2>
+                    <p>Многие наши сотрудники являются выпускниками французских ВУЗов и охотно делятся своим опытом</p>
+                </div>
+            </div>
+        </div>
+        <div class="container box-study_student-section">
+            <div class="row custom-table">
+                <div class="col-md-6 block1-study_student-section">
+                </div>
+                <div class="col-md-6 text-left block2-study_student-section">
+                    <h4><strong>Выучиться на программиста во Франции - личный опыт</strong></h4>
+                    <a href="http://blog.devatlant.com/blog/2016/05/05/vyuchitsia-na-proghrammitsa-vo-frantsii/"><em>ЧИТАТЬ ДАЛЕЕ</em></a>
+                </div>
+            </div>
+            <div class="row custom-table">
+                <div class="col-md-6 text-right block3-study_student-section">
+                    <h4><strong>Master по информатике во Франции - программа обучения</strong></h4>
+                    <a href="http://blog.devatlant.com/blog/2016/05/10/master-po-informatikie-vo-frantsii-programma-obuchenia/"><em>ЧИТАТЬ ДАЛЕЕ</em></a>
+                </div>
+                <div class="col-md-6 block4-study_student-section">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <a href="http://www.diplomatie.gouv.fr/fr/venir-en-france/etudier-en-france/financer-le-projet-bourses/" class="btn button_student-section" role="button">ОФИЦИАЛЬНЫЙ ПЕРЕЧЕНЬ ПРОГРАММ</a>
+                </div>
+            </div>
+        </div>
+        <!-- AND STUDENT SECTION study-->
+
+        <!-- STUDENT SECTION initiative-->
+        <div class="container title-initiative_student-section">
+            <div class="row">
+                <div class="col-md-12  text-center">
+                    <h2>НАШИ ИНИЦИАТИВЫ</h2>
+                    <img src="images/main-page/line.png" alt="line">
+                </div>
+            </div>
+        </div>
+        <div class="container box-initiative_student-section">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-1 text-center item1-initiative_student-section">
+                    <img src="images/main-page/icon_1.png">
+                    <p>Мы организовываем встречи <strong>в Вуз-ах, </br>митапы, конференции </br></strong>в городах Украины</p>
+                </div>
+                <div class="col-md-4 text-center item2-initiative_student-section">
+                    <img src="images/main-page/icon_2.png">
+                    <p>Приглашаем на работту и/или стажировки </br>студентов IT-специальностей. Свои </br>кандидатуры Вы можете отправить на </br><a href=""><strong>contact@devatlant.com</strong></a></p>
+                </div>
+                <div class="col-md-3 text-center item3-initiative_student-section">
+                    <img src="images/main-page/icon_3.png">
+                    <p>Следите за новостями на нашем </br>твитере <a href=""><strong>@devAtlant</strong></a></p>
+                </div>
+            </div>
+        </div>
+        <!--AND STUDENT SECTION initiative-->
+    </section>
+    <!-- END STUDENT SECTION -->
+
+
+<!-- =========================
+     START START_UP SECTION
+     ============================== -->
+    <section id="STUDENT" class="startup-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title_startup-section text-center">
+                        <h2>СТАРТАП</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container box-ticket_startup-section">
+            <div class="row">
+                <div class="col-md-3 image-ticket_startup-section">
+                    <img class="img-responsive" src="images/main-page/FrenchTechTickets.jpg" alt="FrenchTechTickets">
+                </div>
+                <div class="col-md-9 text-justify decr-ticket_startup-section">
+                    <p>Специальная программа Французского правительства для привлечения финансирования иностранных предпринимателей в IT, у которых есть минимально работающий продукт.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 map-ticket_startup-section">
+                    <img class="img-responsive" src="images/main-page/startup.png" alt="start up">
+                </div>
+            </div>
+        </div>
+        <div class="container box-advantages_startup-section">
+            <div class="row">
+                <div>
+                    <div class="col-md-12 text-center title-advantages_startup-section">
+                        <h2>French Tech Ticket</h2>
+                        <p>Преимущества программы</p>
+                        <img src="images/main-page/line.png" alt="line">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row items-advantages_startup-section">
+                <div class="col-md-4 text-center">
+                    <img src="images/main-page/icon_1_1.png">
+                    <h4><strong>Капитал</strong></h4>
+                    <p>45,000 евро в год 20,000 для личного использования + 25,000 для развития Вашей компании</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/main-page/icon_1_2.png">
+                    <h4><strong>Обучение</strong></h4>
+                    <p>Мастер-классы, нетворкинг, менторство, 2 дня для демо-сессий с потенциальными инвесторами</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/main-page/icon_1_3.png">
+                    <h4><strong>Help-desk</strong></h4>
+                    <p>Выделенный помощник в решении административных задач, для Вашей полной концентрации на развитие продукта</p>
+                </div>
+            </div>
+            <div class="row items-advantages_startup-section">
+                <div class="col-md-4 text-center">
+                    <img src="images/main-page/icon_1_4.png">
+                    <h4><strong>Инкубатор</strong></h4>
+                    <p>Предоставление офиса на 12 месяцев в одном из 41 инкубаторов в крупных французских городах</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/main-page/icon_1_5.png">
+                    <h4><strong>Релокация</strong></h4>
+                    <p>Помощь в организации релокации во Францию</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="images/main-page/icon_1_6.png">
+                    <h4><strong>Вид на жительство</strong></h4>
+                    <p>Ускоренная и упрощенная процедура получения вида на жительство</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <a href="http://frenchtechticket.com/" title="Перейти на официальный сайт" class="btn button_startup-section" role="button">ЧИТАТЬ ПОДРОБНЕЕ</a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Startup Section -->
+    <!-- END START_UP SECTION -->
 
 
-    <section class="startup page" id="business">
+<!-- =========================
+     START BUSINESS SECTION
+     ============================== -->
+    <section id="BUSINESS" class="business-section">
         <div class="container">
             <div class="row">
-                <div class="page-header text-center">
-                    <h1>Высокотехнологический бизнес в Украине</h1>
+                <div class="col-md-12 text-center title_business-section">
+                    <h2>БИЗНЕС В УКРАИНЕ</h2>
+                    <p>Эта информация может быть полезна французским предпринимателям, которые хотят </br><strong>основать IT-компанию (офис по разработке, <abbr>R&D</abbr>) в Украине.</strong></p>
                 </div>
             </div>
-            <div class="row">
-                <blockquote class="lead text-center">
-                    Эта информация может быть полезна французским предпринимателям, которые хотят
-                    <br><strong>основать IT-компанию (офис по разработке, R&D) в Украине</strong>.
-                </blockquote>
-            </div>
-            <div class="row">
-                <div class="col-md-4" >
-                    <div class="jumbotron"  style="background-color: #2a6496; color: white">
-                        <h2 class="text-center">Цель компании DevAtlant</h2>
-                        <p class="text-justify">Помочь французским IT-предпринимателям начинать работать в Украине в максимально короткие сроки и с минимальными рисками</p>
+        </div>
+
+        <!-- BUSINESS SECTION box-->
+        <div class="container box_business-section">
+            <div class="row row-table_box-business">
+                <div class="col-md-5 first-col-table_box-business text-center">
+                    <div class="table_box-business">
+                        <div class="mission_box-business text-center">
+                            <h2>ЦЕЛЬ КОМПАНИИ </br>DEVATLANT</h2>
+                            <p>Помогать французским </br>IT-предпринимателям </br> начинать работать в Украине в </br>максимально короткие сроки и с </br>минимальными рисками</p>
+                        </div>
+                        <div class="white-block_box-business">
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-md-offset-1">
-                    <ul class="list-group">
-                        <li class="list-group-item list-group-item-heading text-center list-group-item-info" ><h4>Консультации</h4></li>
-                        <li class="list-group-item">Открытие официальных представительств французских компаний в Украине.</li>
-                        <li class="list-group-item">Организация и запуск работ в режиме freelance</li>
-                        <li class="list-group-item">Консультации юристов специализирующихся на международных контрактах и имеющий опыт в IT сфере.</li>
-                        <li class="list-group-item">Консультации финансистов по особенностям украинского налогообложения, трудовому законодательству, особенностями работы с ЧП и тд.</li>
-                        <li class="list-group-item">Подбор команды и поиск ключевых сотрудников (работа с ассоциацией бывших стипендиатов Французского Правительства)</li>
-                        <li class="list-group-item">Индустриализация центра разработки</li>
+                <div class="col-md-7 second-col-table_box-business text-justify">
+                    <ul>
+                        <li><strong>Открытие официальных представительств французских компаний в Украине</strong></li>
+                        <li><strong>Консультации юристов, специализирующихся на международных контрактах и имеющих опыт в IT сфере</li>
+                        <li><strong>Консультации финансистов по особенностям украинского налогообложения, трудовому законодательству, особенностями работы с ЧП и тд.</strong></strong></li>
+                        <li><strong>Подбор команды и поиск ключевых сотрудников (работа с ассоциацией бывших стипендиатов Французского Правительства)</strong></li>
+                        <li><strong>Индустриализация центра разработки</strong></li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div>
-                    <blockquote>Являясь французской компанией с офисом в <strong>Ланньйоне (Lannion)</strong> и тесно сотрудничая с украинскими компаниями,
-                        мы видим все преимущества и недостатки IT бизнеса в Украине по сравнению с Францией.
-                        <br>Мы можем предупредить Вас о неожиданных рисках и помочь в переговорах с местными администрациями, партнерами и разработчиками.
-                    </blockquote>
-                </div>
-            </div>
         </div>
-    </section>
-    <!-- End Business Section -->
-
-<!-- =========================
-     FOOTER
-     ============================== -->
-     <section class="copyright">
-        <h2></h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="copy_right_text">
-                    <!-- COPYRIGHT TEXT -->
-                        <p>Copyright &copy; 2016 <a href="#HOME"><nobr>DevAtlant Software</nobr></a> </p>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="panel" style="background-color: #403C3C; color: white">
-                        <small>
-                            Devatlant Software EURL<br>
-                            4, avenue Ampere, 22300 Lannion, France<br>
-                            Email: <a href="mailto:contact@devatlant.com?body=Hello&subject=devAtlant contact" title="push us an email">contact@devatlant.com</a>
-                            Phone: <a href="tel: +33 7 83 05 45 53" title="call french office">FR +33 7 83 05 45 53</a>
-                        </small>
-                    </div>
-                </div>
-                   <div class="col-md-4">
-                    <div class="scroll_top">
-                        <a href="#HOME"><i class="fa fa-angle-up"></i></a>
+                <div class="col-md-12 wrap-risks_business-section">
+                    <div class="risks_business-section text-justify">
+                        <p>Являясь французской компанией с офисом в Ланньйоне (Lannion) и тесно сотрудничая с украинскими компаниями, мы видим абсолютные преимущества и недостатки IT бизнеса в Украине по сравнению с Францией. Мы можем предупредить Вас о неожиданных рисках и помочь в переговорах с местными администрациями/партнерами.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- END FOOTER -->
+    <!-- END BUSINESS SECTION -->
 
-<!-- =========================
-     SCRIPTS
-     ============================== -->
-     <script src="js/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/jquery.parallax-1.1.3.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/jquery.easypiechart.min.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/jquery.nicescroll.min.js"></script>
-     <script src="js/script.js"></script>
-     <script src="js/map.js"></script>
-     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-76148743-1', 'auto');
-      ga('send', 'pageview');
-  </script>
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Software",
-      "name": "DevAtlant Software",
-      "description": "software development",
-      "telephone": "+33783054553",
-      "founder": "Yevgen Voronetskyy",
-      "logo": "http://devatlant.com/images/logo.png",
-      "url":"http://devatlant.com",
-      "location":"4, avenue Ampere, 22300 Lannion, France"
-    }
-    </script>
 </body>
 
 </html>
