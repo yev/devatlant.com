@@ -2,6 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76148743-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-76148743-1');
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -295,20 +304,18 @@
                 </div>
                 <!-- Tab startup content-->
                 <div role="tabpanel" class="tab-pane fade" id="startup">
-                    <a tabindex="0" href="" class="item">
+                    <a tabindex="0" href="#" class="item popovers" data-placement="bottom" data-toggle="popover" data-trigger="focus"
+                       data-content="Our de facto standard for web page CSS design and implementation.">
                         <div class="image"><img src="./img/icons/toolbox/bootstrap.png" alt="Bootstrap"/></div>
                         <div class="image-hover"><img src="./img/icons/toolbox/bootstrap_hover.png" alt="Bootstrap"/></div>
                         <div class="name">Bootstrap</div>
                     </a>
-                    <a tabindex="0" href="" class="item">
-                        <div class="image"><img src="./img/icons/toolbox/css.png" alt="CSS"/></div>
-                        <div class="image-hover"><img src="./img/icons/toolbox/css_hover.png" alt="CSS"/></div>
-                        <div class="name">CSS</div>
-                    </a>
-                    <a href="" class="item">
-                        <div class="image"><img src="./img/icons/toolbox/elastic.png" alt="Elastic"/></div>
-                        <div class="image-hover"><img src="./img/icons/toolbox/elastic_hover.png" alt="Elastic"/></div>
-                        <div class="name">Elastic</div>
+                    <a tabindex="0" href="#" class="item popovers" data-placement="bottom" data-toggle="popover" data-trigger="focus"
+                       data-content="This document oriented NoSQL database is used in many of our products.  Fail safe,
+                       distributed architecture, real time and full text search capabilities  ">
+                        <div class="image"><img src="./img/icons/toolbox/elastic.png" alt="ElasticSearch"/></div>
+                        <div class="image-hover"><img src="./img/icons/toolbox/elastic_hover.png" alt="ElasticSearch"/></div>
+                        <div class="name">ElasticSearch</div>
                     </a>
                     <a href="" class="item">
                         <div class="image"><img src="./img/icons/toolbox/grunt.png" alt="Grunt"/></div>
