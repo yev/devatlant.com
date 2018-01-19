@@ -25,6 +25,6 @@ jQuery('document').ready(function($){
         $('[data-toggle="popover"]').popover()
     })
 
-    $('a.item').on('click', function(e) {e.preventDefault(); return true;});
+    $('a.popovers').on('click', function(e) {e.preventDefault(); return true;});
 
  });
