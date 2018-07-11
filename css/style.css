@@ -188,6 +188,7 @@ section.one h1 {
     margin-bottom: 25px;
     }
 section.one .description {
+    background-color: #9d9d9d;
     color: #fff;
     font-size: 20px;
     line-height: 1.4;
