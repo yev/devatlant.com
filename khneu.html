@@ -127,6 +127,64 @@
             </td>
         </tr>
     </table>
+
+    <h2 class="text-center text-capitalize text-danger">Votre Projet</h2>
+    Cette section décrit les taches que vous devez accomplir pour passer l'examen final.
+    <br>Chaque tache décrites ci-dessous doit etre visible sur <strong>votre repo GitHub</strong>.
+    <br>L’examen consistera à la rencontre <strong>one to one</strong>  de <strong>10-15 min</strong> pour faire le <strong>review</strong> de votre projet.
+    <br>L’examen aura lieu à la fin du mois du décembre en format online (par Zoom).
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Description </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>
+                Avoir un compte perso/pro sur <a href="https://github.com">github.com</a>
+                <br>
+                Cloner le repo <a href="https://github.com/devatlant/chat-bot-game">https://github.com/devatlant/chat-bot-game</a>
+                <br>Pousser (push) une nouvelle branch nommé <strong>test</strong>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Dans votre repo https://github.com/YOUR_NICKNAME/chat-bot-game/<strong>actions</strong> activer l'Intégration Continue (CI)</code>
+                <br>1. Lancez manuellement le "workflow" du CI.
+                <br>2. Ajouter le <strong>CI status badge</strong>  dans votre README.MD
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Ajouter une nouvelle section dans le fichier <strong>README.MD</strong> existant avec une brève description de votre profil professionel.
+                <br>Utilisez au moins 5 différentes styles offertes par <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a>
+                pour rendre votre présentation plus jolie.</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>Ajouter un log qui décrit le message (text) envoyé au user suite au traitement effectué dans la classe <code>com.devatlant.chatbot.game.BotEngine</code>
+                <br>Ce log doit respecter le format suivant :
+                <br><pre>message [TEXT] was sent with success for user [TELEGRAM_USER_NAME]</pre>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td>Dans la classe existante <code>com.devatlant.chatbot.game.GameTest</code>
+                ajouter 2 nouvelles méthodes <strong>JUnit</strong> qui vont tester la méthode statique
+                <code>public static boolean com.devatlant.chatbot.game.GameTest.isInteger(String s)</code>:
+                <pre>
+                    <br/>should_return_false_for_text_anyText
+                    <br>should_return_true_for_int_100
+                </pre>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
 </div>
 
 <footer>
