@@ -1,4 +1,4 @@
-/* import fonts */ 
+/* import fonts */
 /* Raleway font */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,900,900i');
 /* Roboto font */
@@ -116,7 +116,7 @@ section {
     padding-top: 8px;
     }
 #header {
-    padding: 15px;
+        padding: 15px;
     display: table;
     width: 100%;
     position: fixed;
@@ -170,7 +170,7 @@ section {
         width: 100%;
         float: none;
         }
-    .main-menu li a { 
+    .main-menu li a {
         padding: 15px 0;
         }
     }
@@ -287,7 +287,7 @@ section.three h2 {
     margin-top: 0;
     }
 section.three .description {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     font-size: 18px;
     }
 section.three .slide-text {
@@ -361,7 +361,7 @@ section.four h2 {
     text-align: right;
     }
 section.four .description {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     font-size: 18px;
     text-align: right;
     }
@@ -421,12 +421,12 @@ section.four .item:hover .name {
         height: 45px;
         }
     }
-@media (max-width: 767px) {  
+@media (max-width: 767px) {
     section.four .item {
         width: 25%;
         }
     }
-@media (max-width: 450px) {  
+@media (max-width: 450px) {
     section.four .item {
         width: 50%;
         }
@@ -442,7 +442,7 @@ section.five h2 {
     margin-top: 0;
     }
 section.five .description {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     font-size: 18px;
     }
 section.five .tab-pane {
@@ -455,7 +455,7 @@ section.five .item {
     }
 section.five .news-text {
     padding: 5px 30px 30px;
-    margin: -30px 30px 0; 
+    margin: -30px 30px 0;
     background-color: #fff;
     text-align: center;
     box-shadow: 0 0 24px 4px rgba(0,0,0,0);
@@ -482,12 +482,12 @@ section.five .date {
     }
 @media (min-width: 768px) and (max-width: 991px) {
     section.five .news-text {
-        margin: 0; 
+        margin: 0;
         }
     }
 @media (max-width: 450px) {
     section.five .news-text {
-        margin: 0; 
+        margin: 0;
         }
 }
 /* --------------- SECTION 4 CONTACTS -------------------*/
@@ -504,7 +504,7 @@ section.six h2 {
     text-align: right;
     }
 section.six .description {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     font-size: 18px;
     text-align: right;
     }
@@ -547,7 +547,7 @@ section.six .address {
         text-align: center;
         }
     section.six .row [class*='col-'] {
-        padding-bottom: 50px; 
+        padding-bottom: 50px;
         }
     }
 /* --------------- FOOTER --------------------- */
@@ -576,7 +576,7 @@ footer a.tw:hover {
 footer a.lin:hover {
     color: #0077b5;
     }
-    
+
 .footer-nav {
     text-align: right;
     text-transform: uppercase;
@@ -586,7 +586,7 @@ footer a.lin:hover {
     footer, .text-center-xs, .footer-nav {
         text-align: center;
         }
-    .footer-nav { 
+    .footer-nav {
         margin: 15px 0 5px
         }
     }
@@ -604,15 +604,15 @@ footer a.lin:hover {
 .one .carousel .item img {
     margin: 0 auto;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
