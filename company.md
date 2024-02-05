@@ -9,17 +9,32 @@
  * Different technologies for JavaScript development: raw JavaScript, jQuery, VUE.js, node/npm for building
 
 ## Business domains of E-commerce platform
- * Product catalog
- * Payment methods
- * Delivery subsystem
- * Notifications subsystem
- * Order management System
- * SEO
- * Marketing
- * Generating daily feed for Google Merchant Center (50k products from PIM for 15 minutes)
- * Multistore support
- * Multilanguage support
- * Product Kit
+    * Product catalog
+    * Payment methods
+    * Delivery subsystem
+    * Notifications subsystem
+    * Order management System
+    * SEO
+    * Marketing
+    * Generating daily feed for Google Merchant Center (50k products from PIM for 15 minutes)
+    * Multistore support
+    * Multi-language support
+    * Product Kit
+
+## technologies for scaling
+    * fastly CDN 
+    * load balancer F5
+    * ElasticSearch
+    * DataDome - anti-bot protection
+    * Docker/Kubernetes
+    * Ansible
+
+## Performance toolbox
+    * VisualVM, JConsole
+    * JRebel, JProfiler
+    * JMeter
+    * JMH
+    * dmesg, iostat, vmstat, top, htop
 
 ## Major achievements
  * Engineering Ecommerce platform from scratch with existing custom PIM and CMS systems. 
